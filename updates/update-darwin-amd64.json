@@ -1,8 +1,24 @@
 {
-  "version": "0.3.3",
-  "notes": "### Changed\n\n- Auto-update feed hosted on standalone public repo `hiyali/time-to-stand-releases` (GitHub Pages); private app repo no longer needs Pages.",
-  "date": "2026-11-13T10:27:29Z",
-  "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.3.3-darwin-amd64.tar.gz",
-  "size": 10787066,
-  "signature": "UtErYEQx7DwtDh56I6TpME+zzhEdJBwVhi4Xon+Xm66VoN6uwE+McbMg/bZTALo87GFyyTOCS6IxwLfxgw2xCQ=="
+  "version": "0.3.4",
+  "notes": "### Changed\n\n- About window: more space above the tagline.",
+  "date": "2026-11-13T10:54:21Z",
+  "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.3.4-darwin-amd64.tar.gz",
+  "size": 10787574,
+  "signature": "KHxP1vTdXAHzY+qadTTmAcKYBQsWq2BSUu0YBOQ94XL4BfnnBQiZMVRq4qCKUhvtN/AndA9ZwF+zOiSOsJ29BQ==",
+  "deltas": [
+    {
+      "from": "0.3.3",
+      "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.3.3-to-0.3.4-darwin-amd64.delta",
+      "size": 271034,
+      "signature": "B7CLRTprtsaID5qEPovgfK1n8HpkTyCJXgQWH+DfDFD0OMpRUb/VhgM7z+zEeQfEbmWZDdoiEklq7xi12ipdDg=="
+    }
+  ],
+  "previous": [
+    {
+      "version": "0.3.3",
+      "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.3.3-darwin-amd64.tar.gz",
+      "size": 10787066,
+      "signature": "UtErYEQx7DwtDh56I6TpME+zzhEdJBwVhi4Xon+Xm66VoN6uwE+McbMg/bZTALo87GFyyTOCS6IxwLfxgw2xCQ=="
+    }
+  ]
 }
