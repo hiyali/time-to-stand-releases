@@ -1,0 +1,8 @@
+{
+  "version": "0.3.3",
+  "notes": "### Changed\n\n- Auto-update feed hosted on standalone public repo `hiyali/time-to-stand-releases` (GitHub Pages); private app repo no longer needs Pages.",
+  "date": "2026-11-13T10:28:02Z",
+  "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.3.3-windows-amd64.tar.gz",
+  "size": 9309887,
+  "signature": "iqy7ydpcHEl4sK1NdNKHh3LWb+RNZWf+eJYBb9gtnP25EAkYv6c3M4jv4ZIj5OUiEJXQpTI+QnoSJpUNyN6qAA=="
+}
