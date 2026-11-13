@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Time to Stand — Download</title>
+    <meta
+      name="description"
+      content="Download Time to Stand for macOS and Windows. Healthy breaks, built into your workday."
+    />
+    <link rel="icon" href="updates/icon.png" type="image/png" />
+    <style>
+      :root {
+        --bg: #faf7f2;
+        --card: #ffffff;
+        --text: #1a1a1a;
+        --muted: #5c5c5c;
+        --accent: #e85d3a;
+        --accent-hover: #cf4f30;
+        --border: #e8e2d9;
+        --shadow: 0 12px 40px rgba(26, 26, 26, 0.08);
+        --radius: 14px;
+        font-family: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial,
+          sans-serif;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        min-height: 100vh;
+        color: var(--text);
+        background: radial-gradient(1200px 600px at 50% -10%, #ffe8d6 0%, var(--bg) 55%);
+      }
+
+      main {
+        max-width: 28rem;
+        margin: 0 auto;
+        padding: 3rem 1.25rem 4rem;
+        text-align: center;
+      }
+
+      .logo {
+        width: 88px;
+        height: 88px;
+        border-radius: 20px;
+        box-shadow: var(--shadow);
+        margin-bottom: 1.25rem;
+      }
+
+      h1 {
+        font-size: 1.75rem;
+        font-weight: 700;
+        letter-spacing: -0.02em;
+        margin: 0 0 0.35rem;
+      }
+
+      .tagline {
+        margin: 0 0 0.5rem;
+        color: var(--muted);
+        font-size: 1rem;
+        line-height: 1.45;
+      }
+
+      .version {
+        margin: 0 0 2rem;
+        font-size: 0.875rem;
+        color: var(--muted);
+      }
+
+      .actions {
+        display: flex;
+        flex-direction: column;
+        gap: 0.75rem;
+      }
+
+      a.btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0.5rem;
+        padding: 0.9rem 1.25rem;
+        border-radius: var(--radius);
+        font-size: 1rem;
+        font-weight: 600;
+        text-decoration: none;
+        color: #fff;
+        background: var(--accent);
+        box-shadow: 0 4px 14px rgba(232, 93, 58, 0.35);
+        transition: background 0.15s ease, transform 0.1s ease;
+      }
+
+      a.btn:hover {
+        background: var(--accent-hover);
+        transform: translateY(-1px);
+      }
+
+      a.btn:focus-visible {
+        outline: 2px solid var(--accent);
+        outline-offset: 3px;
+      }
+
+      a.btn.secondary {
+        background: var(--card);
+        color: var(--text);
+        border: 1px solid var(--border);
+        box-shadow: var(--shadow);
+      }
+
+      a.btn.secondary:hover {
+        background: #f5f2ed;
+      }
+
+      footer {
+        margin-top: 2.5rem;
+        font-size: 0.8125rem;
+        color: var(--muted);
+        line-height: 1.6;
+      }
+
+      footer a {
+        color: var(--accent);
+        text-decoration: none;
+      }
+
+      footer a:hover {
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <img class="logo" src="updates/icon.png" width="88" height="88" alt="" />
+      <h1>Time to Stand</h1>
+      <p class="tagline">Healthy breaks, built into your workday.</p>
+      <p class="version">Version 0.3.5</p>
+
+      <div class="actions" aria-label="Download installers">
+        <a
+          class="btn"
+          href="downloads/macos.dmg"
+          download
+          rel="noopener"
+        >
+          Download for macOS
+        </a>
+        <a
+          class="btn secondary"
+          href="downloads/windows-setup.exe"
+          download
+          rel="noopener"
+        >
+          Download for Windows
+        </a>
+      </div>
+
+      <footer>
+        <p>© Mayak, LTD.</p>
+        <p>
+          <a href="https://time-to-stand.mayak.cloud">time-to-stand.mayak.cloud</a>
+        </p>
+      </footer>
+    </main>
+  </body>
+</html>

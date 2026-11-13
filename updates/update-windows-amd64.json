@@ -1,19 +1,25 @@
 {
-  "version": "0.3.4",
-  "notes": "### Changed\n\n- About window: more space above the tagline.",
-  "date": "2026-11-13T10:55:08Z",
-  "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.3.4-windows-amd64.tar.gz",
-  "size": 9310696,
-  "signature": "gqHulNl3l6soVAuPKiKrdpG+WWa0vwxwp+g9JzfTtjdt4RQNecpTR7CAckbi61GTmKPLS3TjLh/RVkedTHziDQ==",
+  "version": "0.3.5",
+  "notes": "### Added\n\n- Public download page on `time-to-stand-releases` GitHub Pages (macOS `.dmg`, Windows setup `.exe`).",
+  "date": "2026-11-13T11:31:12Z",
+  "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.3.5-windows-amd64.tar.gz",
+  "size": 9310701,
+  "signature": "5bTdSxDx6UgPL1ipQNmQKMmHm16JRN5TY6uEtqSq85YSirEEWUiKgnRkz1z/ADFZQ9hF0onk847oukH0ncusCg==",
   "deltas": [
     {
-      "from": "0.3.3",
-      "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.3.3-to-0.3.4-windows-amd64.delta",
-      "size": 161420,
-      "signature": "0RQ3KLpD/8fOpx7/Kp/dKrIO+oeNf4pb3cXyFpgu45b5jZ44VLej4QmWo3WPRaOh6X7glKa977QvooYHe30ABQ=="
+      "from": "0.3.4",
+      "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.3.4-to-0.3.5-windows-amd64.delta",
+      "size": 18187,
+      "signature": "i/SZyRclqUhBi71Hl7KrWM/oR3x9N1GhdixarA769C9NNobLeKhYONkxv+MRUIgHLcE1VF7YWg4Gn9AuNDozAA=="
     }
   ],
   "previous": [
+    {
+      "version": "0.3.4",
+      "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.3.4-windows-amd64.tar.gz",
+      "size": 9310696,
+      "signature": "gqHulNl3l6soVAuPKiKrdpG+WWa0vwxwp+g9JzfTtjdt4RQNecpTR7CAckbi61GTmKPLS3TjLh/RVkedTHziDQ=="
+    },
     {
       "version": "0.3.3",
       "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.3.3-windows-amd64.tar.gz",

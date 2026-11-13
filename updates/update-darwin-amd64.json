@@ -1,19 +1,25 @@
 {
-  "version": "0.3.4",
-  "notes": "### Changed\n\n- About window: more space above the tagline.",
-  "date": "2026-11-13T10:54:21Z",
-  "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.3.4-darwin-amd64.tar.gz",
-  "size": 10787574,
-  "signature": "KHxP1vTdXAHzY+qadTTmAcKYBQsWq2BSUu0YBOQ94XL4BfnnBQiZMVRq4qCKUhvtN/AndA9ZwF+zOiSOsJ29BQ==",
+  "version": "0.3.5",
+  "notes": "### Added\n\n- Public download page on `time-to-stand-releases` GitHub Pages (macOS `.dmg`, Windows setup `.exe`).",
+  "date": "2026-11-13T11:30:11Z",
+  "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.3.5-darwin-amd64.tar.gz",
+  "size": 10787580,
+  "signature": "cvrSMTsyegI0EL72l3SY0431rcMSR8h23igeRvn5Y3NiUl80CvGrxPbV5hmJjWTHgn1EUGb4nsceQI4Oqt89Bw==",
   "deltas": [
     {
-      "from": "0.3.3",
-      "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.3.3-to-0.3.4-darwin-amd64.delta",
-      "size": 271034,
-      "signature": "B7CLRTprtsaID5qEPovgfK1n8HpkTyCJXgQWH+DfDFD0OMpRUb/VhgM7z+zEeQfEbmWZDdoiEklq7xi12ipdDg=="
+      "from": "0.3.4",
+      "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.3.4-to-0.3.5-darwin-amd64.delta",
+      "size": 18640,
+      "signature": "i3v24eLItWwP35Rm+BrkV+eaw0HORzfaHMdgFsr6JYrEZ8EKAIPo8QEwxHWzSEAqZSlORaFm87Jj4bytXDaaDw=="
     }
   ],
   "previous": [
+    {
+      "version": "0.3.4",
+      "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.3.4-darwin-amd64.tar.gz",
+      "size": 10787574,
+      "signature": "KHxP1vTdXAHzY+qadTTmAcKYBQsWq2BSUu0YBOQ94XL4BfnnBQiZMVRq4qCKUhvtN/AndA9ZwF+zOiSOsJ29BQ=="
+    },
     {
       "version": "0.3.3",
       "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.3.3-darwin-amd64.tar.gz",
