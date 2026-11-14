@@ -1,30 +1,30 @@
 {
-  "version": "0.3.10",
-  "notes": "### Changed\n\n- Settings window: slightly smaller mode label and session timer type; more spacing above the tagline.\n- Changelog and public release wording: user-facing text only (no framework names).",
-  "date": "2026-11-14T06:26:58Z",
-  "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.3.10-darwin-amd64.tar.gz",
-  "size": 9915901,
-  "signature": "l7OwyYQ1OHs0+rNbco0s7HI85y3NAxA5paequsO3HXaxw29CJYUZ/frnrWxAjEs8Z22nYPCKzwMkTsorbHWCDQ==",
+  "version": "0.3.11",
+  "notes": "### Added\n\n- Windows: tray icon shows ring progress toward the focus target; tooltip shows mode and segment time.\n\n### Changed\n\n- User-facing modes: **Focus** / **Move** (EN) and **专注** / **活动** (ZH); actions **Start Focus** / **Start Move**.\n- English label **Open at Login** (was “Open at login”).\n\n### Fixed\n\n- macOS app icon fills the system squircle without an extra white ring in Finder / Launchpad (`make icon-app` before packaging).\n- macOS / Windows: notification permission guide at app startup when alerts are off, not only when opening Settings.\n- Windows: settings panel stays in sync when preferences change from the tray menu while it is open.\n- Windows: **Follow system** language uses the display language, not only `LANG` environment variables.",
+  "date": "2026-11-14T07:25:58Z",
+  "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.3.11-darwin-amd64.tar.gz",
+  "size": 10010658,
+  "signature": "fJjXh2nSORammkAnetn0/mUkPnPOGaO1id4Ye/5aHxasrtyHvQla2REhhBtC1JdPaJ6jTb6m9aSzSwfA9jxlAw==",
   "deltas": [
     {
-      "from": "0.3.9",
-      "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.3.9-to-0.3.10-darwin-amd64.delta",
-      "size": 23829,
-      "signature": "Igj9amVzUN41Zk5ytV/dbC7r/hyKkBZ6k2nk7bazl/o6HOsd1/wqTahU3ip/3j8HepMi0q94wuehiUr1GrlPCA=="
+      "from": "0.3.10",
+      "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.3.10-to-0.3.11-darwin-amd64.delta",
+      "size": 3382857,
+      "signature": "AxRTaldJjcqQK8f3dWUa8ckUj7iaov75p6hFymbigHGSabB8V1o6khr+s2qybRLO7yxNe14onQqKtyUYgiMcAA=="
     }
   ],
   "previous": [
+    {
+      "version": "0.3.10",
+      "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.3.10-darwin-amd64.tar.gz",
+      "size": 9915901,
+      "signature": "l7OwyYQ1OHs0+rNbco0s7HI85y3NAxA5paequsO3HXaxw29CJYUZ/frnrWxAjEs8Z22nYPCKzwMkTsorbHWCDQ=="
+    },
     {
       "version": "0.3.9",
       "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.3.9-darwin-amd64.tar.gz",
       "size": 9915861,
       "signature": "b8zaNkvcBlRgrc26AvajD0e86NJAizgM5o+DsV7jnZONwOjc0iQQ4vkbs6xrTQk+oAi80Aoyi9XkUtYAFCjYDA=="
-    },
-    {
-      "version": "0.3.8",
-      "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.3.8-darwin-amd64.tar.gz",
-      "size": 9916353,
-      "signature": "fKbe7cykvMS4QiuF67wEg443TidO2xmeYLmbJ0pLPElHeNJ5/FAgljlZtEfSYzBYlLvDumo1XSr2UZlnic/qAw=="
     }
   ]
 }

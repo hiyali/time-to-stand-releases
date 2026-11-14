@@ -1,30 +1,30 @@
 {
-  "version": "0.3.10",
-  "notes": "### Changed\n\n- Settings window: slightly smaller mode label and session timer type; more spacing above the tagline.\n- Changelog and public release wording: user-facing text only (no framework names).",
-  "date": "2026-11-14T06:27:50Z",
-  "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.3.10-windows-amd64.tar.gz",
-  "size": 8369717,
-  "signature": "nue57U8L81fuKblsWGK7ccrYH1/Kx7qZbpM8ODhiNQROsRvRU31QoDsHSexFHBQ9j/CXovsc7tjeVHqsmywCBw==",
+  "version": "0.3.11",
+  "notes": "### Added\n\n- Windows: tray icon shows ring progress toward the focus target; tooltip shows mode and segment time.\n\n### Changed\n\n- User-facing modes: **Focus** / **Move** (EN) and **专注** / **活动** (ZH); actions **Start Focus** / **Start Move**.\n- English label **Open at Login** (was “Open at login”).\n\n### Fixed\n\n- macOS app icon fills the system squircle without an extra white ring in Finder / Launchpad (`make icon-app` before packaging).\n- macOS / Windows: notification permission guide at app startup when alerts are off, not only when opening Settings.\n- Windows: settings panel stays in sync when preferences change from the tray menu while it is open.\n- Windows: **Follow system** language uses the display language, not only `LANG` environment variables.",
+  "date": "2026-11-14T07:26:25Z",
+  "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.3.11-windows-amd64.tar.gz",
+  "size": 8424781,
+  "signature": "pKBYC9APa29w1oUhQBvNYUgVXAk9Z4Rt8vLxW6FcukBXWZHskFpKaDwgivrUiOuI/EkwO84gBiXX42ktVZ4bCA==",
   "deltas": [
     {
-      "from": "0.3.9",
-      "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.3.9-to-0.3.10-windows-amd64.delta",
-      "size": 18633,
-      "signature": "CjwmLEu+1jKq6QyEHV5jqTgE18Vz8gCLSxt0gR2QGJ/ddWeHmE76f2ol0Cc1AG/wcTBuP+O/H5nK22veB7FBCg=="
+      "from": "0.3.10",
+      "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.3.10-to-0.3.11-windows-amd64.delta",
+      "size": 1873959,
+      "signature": "vARyH/n3KtwOGQWMLl6N8ZCAN/f2fRR60QDip+Kck/7UNCeP89TzvpQsRw4d7mRlV8vVWqHCvngk8nthwjJ0Aw=="
     }
   ],
   "previous": [
+    {
+      "version": "0.3.10",
+      "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.3.10-windows-amd64.tar.gz",
+      "size": 8369717,
+      "signature": "nue57U8L81fuKblsWGK7ccrYH1/Kx7qZbpM8ODhiNQROsRvRU31QoDsHSexFHBQ9j/CXovsc7tjeVHqsmywCBw=="
+    },
     {
       "version": "0.3.9",
       "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.3.9-windows-amd64.tar.gz",
       "size": 8369718,
       "signature": "dThVfr1ysFneCvws2QSOyWMUizds2Uo9+jcTRQo5RiTf/Nox7OaDLIkgpAaV/SaPEmDu61K1014ZUkR6Ze5UBQ=="
-    },
-    {
-      "version": "0.3.8",
-      "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.3.8-windows-amd64.tar.gz",
-      "size": 8369719,
-      "signature": "VPeGN6VQaZRsxD9anZ20pmiJFgxMm2RCZdXQXDQFw20tWNsCpj0oQOHxuG0JQSA0C5zNs2N+hlds3CVa6Bu6Cg=="
     }
   ]
 }
