@@ -1,10 +1,10 @@
 {
   "version": "0.3.13",
   "notes": "### Added\n\n- When an update is available, choose **Domestic** (mainland mirror) or **Official** (GitHub Pages) before downloading.",
-  "date": "2026-11-14T14:52:43Z",
+  "date": "2026-11-14T15:04:51Z",
   "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.3.13-darwin-arm64.tar.gz",
-  "size": 9041867,
-  "signature": "2okvGiT0e936WUhSrLY8ddTH/9C4V/ZHzcw6OaF5nVBfYGSDmBhRWAV2Ies2pUo23Q3Udk77kbWHu6jrlXt0Bg==",
+  "size": 9041856,
+  "signature": "hmk2aLjgAet0++bKlbiV33UxOwDu0XWhx3kupLAA5VArgFV5u7GL4oL+y7sek/fpKVYGOrfFjriOWtiCu8EeDA==",
   "previous": [
     {
       "version": "0.3.12",

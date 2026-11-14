@@ -1,10 +1,10 @@
 {
   "version": "0.3.13",
   "notes": "### Added\n\n- When an update is available, choose **Domestic** (mainland mirror) or **Official** (GitHub Pages) before downloading.",
-  "date": "2026-11-14T14:52:50Z",
+  "date": "2026-11-14T15:04:56Z",
   "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.3.13-windows-amd64.tar.gz",
-  "size": 8410857,
-  "signature": "B59WcVZ4fC1QBTUandP7UN9VDupb16EUttCKKFQhChudTrycbLqP77VH7A58/XP4QG3OZMtj69aFAfuQXmFjAA==",
+  "size": 8410854,
+  "signature": "VL7t2YHvkvfCkymfq8BFDmxDYZBYWTAa1t1G8BCfAU+bEdvmBIz7H309smSZgf9RDrG7lr7WQXvfEUb+SZRPBw==",
   "previous": [
     {
       "version": "0.3.12",
