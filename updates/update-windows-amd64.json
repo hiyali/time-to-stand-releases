@@ -1,30 +1,30 @@
 {
-  "version": "0.3.7",
-  "notes": "### Changed\n\n- Public download page: side-by-side macOS / Windows cards, segmented Mac arch picker, device detection, install hints, and Open Graph metadata.",
-  "date": "2026-11-14T03:14:42Z",
-  "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.3.7-windows-amd64.tar.gz",
-  "size": 8369722,
-  "signature": "Jk4QrPbL5bexuGQkyEkGbjPhjAk2/3d5yefgbhDTBGj+6tTyu/6Ee8HKK3bD9NKtXX4vHrsl4G0WZSFZ/D5kDA==",
+  "version": "0.3.8",
+  "notes": "### Fixed\n\n- macOS: create config data directory before opening `run.lock`, so a fresh install from the download page no longer exits immediately.",
+  "date": "2026-11-14T05:43:39Z",
+  "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.3.8-windows-amd64.tar.gz",
+  "size": 8369719,
+  "signature": "VPeGN6VQaZRsxD9anZ20pmiJFgxMm2RCZdXQXDQFw20tWNsCpj0oQOHxuG0JQSA0C5zNs2N+hlds3CVa6Bu6Cg==",
   "deltas": [
     {
-      "from": "0.3.6",
-      "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.3.6-to-0.3.7-windows-amd64.delta",
-      "size": 17739,
-      "signature": "SqdenMT8Xl/Qts+gb9PzHHABJkMAimnPGiSZyxkqGj9VpIO6+JHKpkPDLXKlHxURoGdOrYf1bKFFytGo9IorAg=="
+      "from": "0.3.7",
+      "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.3.7-to-0.3.8-windows-amd64.delta",
+      "size": 17728,
+      "signature": "w9xEUFEuM2U0L0piSs3TocboT712PmhMUys9BQEcNvlPNrfkF3WyNnksiJLvShIeK5L2Zy+w+6ilS1NsgCkIDQ=="
     }
   ],
   "previous": [
+    {
+      "version": "0.3.7",
+      "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.3.7-windows-amd64.tar.gz",
+      "size": 8369722,
+      "signature": "Jk4QrPbL5bexuGQkyEkGbjPhjAk2/3d5yefgbhDTBGj+6tTyu/6Ee8HKK3bD9NKtXX4vHrsl4G0WZSFZ/D5kDA=="
+    },
     {
       "version": "0.3.6",
       "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.3.6-windows-amd64.tar.gz",
       "size": 8369645,
       "signature": "Gf92E6dB8extzFKhD69djqzbOS4YMY2BslmWfNhlUwJ3AWJIzTlrooGrBpNgs9WvFw0KKejKrh/YhPFU4Q3aDw=="
-    },
-    {
-      "version": "0.3.5",
-      "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.3.5-windows-amd64.tar.gz",
-      "size": 9310701,
-      "signature": "5bTdSxDx6UgPL1ipQNmQKMmHm16JRN5TY6uEtqSq85YSirEEWUiKgnRkz1z/ADFZQ9hF0onk847oukH0ncusCg=="
     }
   ]
 }

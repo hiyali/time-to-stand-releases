@@ -1,19 +1,25 @@
 {
-  "version": "0.3.7",
-  "notes": "### Changed\n\n- Public download page: side-by-side macOS / Windows cards, segmented Mac arch picker, device detection, install hints, and Open Graph metadata.",
-  "date": "2026-11-14T03:14:00Z",
-  "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.3.7-darwin-arm64.tar.gz",
-  "size": 9167145,
-  "signature": "oi/iBYT9jAkYA62hJDoitU9rF6LfpLYO6WpfufR5BoeNwDer778nROqZOd/F7FdK0PuoUypDSbeeJRKSRkNoCw==",
+  "version": "0.3.8",
+  "notes": "### Fixed\n\n- macOS: create config data directory before opening `run.lock`, so a fresh install from the download page no longer exits immediately.",
+  "date": "2026-11-14T05:42:40Z",
+  "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.3.8-darwin-arm64.tar.gz",
+  "size": 9167275,
+  "signature": "csu6NBQb0QChqFThupUWqDdCFro4EHNJ7K9qIs0Mk6cJRa9bau+lQVJelWI/BCgmqPZkuOKE76lcem61vnKKDQ==",
   "deltas": [
     {
-      "from": "0.3.6",
-      "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.3.6-to-0.3.7-darwin-arm64.delta",
-      "size": 16648,
-      "signature": "xx4FUguZ/0rt/kYSQa41lvxVFTVxmn6PLMvkxwqHIGgpgzK5fXs4/n5t0eeROasl5yEVq9OUV63Enba1lefWDw=="
+      "from": "0.3.7",
+      "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.3.7-to-0.3.8-darwin-arm64.delta",
+      "size": 117475,
+      "signature": "/S9MwroXnW6fucU5SCWlP2vq6+52z9/tcuiXpc3WCCQKH5d1X94es20qVQCK0AzD9TAubydDZhEWqrGGYUwPCg=="
     }
   ],
   "previous": [
+    {
+      "version": "0.3.7",
+      "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.3.7-darwin-arm64.tar.gz",
+      "size": 9167145,
+      "signature": "oi/iBYT9jAkYA62hJDoitU9rF6LfpLYO6WpfufR5BoeNwDer778nROqZOd/F7FdK0PuoUypDSbeeJRKSRkNoCw=="
+    },
     {
       "version": "0.3.6",
       "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.3.6-darwin-arm64.tar.gz",
