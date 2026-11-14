@@ -1,30 +1,30 @@
 {
-  "version": "0.3.6",
-  "notes": "### Added\n\n- macOS **Apple Silicon** (`darwin/arm64`) build, auto-update manifest, and download on the public page.\n\n### Changed\n\n- App icon (`app-icon.png` / `resources/icon.png`): trim excess transparent padding.\n- Download page: one macOS row with **Apple Silicon** and **Intel** installers (`macos-silicon.dmg`, `macos-intel.dmg`).",
-  "date": "2026-11-13T17:21:48Z",
-  "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.3.6-darwin-amd64.tar.gz",
-  "size": 9916450,
-  "signature": "EQMd0Q4BQPxROx03XYYYHsLrNpHVDkjYvp3nUvLtQ/zy4djWOTraL06K9KNClK44ohVsVKb2l75Q8V8Oi+9MBg==",
+  "version": "0.3.7",
+  "notes": "### Changed\n\n- Public download page: side-by-side macOS / Windows cards, segmented Mac arch picker, device detection, install hints, and Open Graph metadata.",
+  "date": "2026-11-14T03:14:04Z",
+  "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.3.7-darwin-amd64.tar.gz",
+  "size": 9916445,
+  "signature": "70rHZg6x/KYQRQsxZyQrSJUTw55uLm8C0Kly7BTawmGo+2UmM+vhXeYgHWN4g/HlPjVMqZuOmU0u5yhTCFi1DA==",
   "deltas": [
     {
-      "from": "0.3.5",
-      "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.3.5-to-0.3.6-darwin-amd64.delta",
-      "size": 3037851,
-      "signature": "5nTdmZMtIcWgpUUtyAG05b39d8g8kZYa6iMxPZBHBVWfId+QOB9b3wRmGBCmBuP2aTPJw5OWXyPuiJSeQ2iaBA=="
+      "from": "0.3.6",
+      "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.3.6-to-0.3.7-darwin-amd64.delta",
+      "size": 18151,
+      "signature": "ywPoM3c3RHcRXVCBvlEPFNTu7XJ9fnZZO375/BO1eY3z5MKp95+c+T7+xC4KH3CG1yLi17sXCDKXuwU7uk2iDw=="
     }
   ],
   "previous": [
+    {
+      "version": "0.3.6",
+      "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.3.6-darwin-amd64.tar.gz",
+      "size": 9916450,
+      "signature": "EQMd0Q4BQPxROx03XYYYHsLrNpHVDkjYvp3nUvLtQ/zy4djWOTraL06K9KNClK44ohVsVKb2l75Q8V8Oi+9MBg=="
+    },
     {
       "version": "0.3.5",
       "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.3.5-darwin-amd64.tar.gz",
       "size": 10787580,
       "signature": "cvrSMTsyegI0EL72l3SY0431rcMSR8h23igeRvn5Y3NiUl80CvGrxPbV5hmJjWTHgn1EUGb4nsceQI4Oqt89Bw=="
-    },
-    {
-      "version": "0.3.4",
-      "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.3.4-darwin-amd64.tar.gz",
-      "size": 10787574,
-      "signature": "KHxP1vTdXAHzY+qadTTmAcKYBQsWq2BSUu0YBOQ94XL4BfnnBQiZMVRq4qCKUhvtN/AndA9ZwF+zOiSOsJ29BQ=="
     }
   ]
 }

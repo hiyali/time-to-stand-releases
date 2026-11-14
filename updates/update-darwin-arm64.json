@@ -1,8 +1,24 @@
 {
-  "version": "0.3.6",
-  "notes": "### Added\n\n- macOS **Apple Silicon** (`darwin/arm64`) build, auto-update manifest, and download on the public page.\n\n### Changed\n\n- App icon (`app-icon.png` / `resources/icon.png`): trim excess transparent padding.\n- Download page: one macOS row with **Apple Silicon** and **Intel** installers (`macos-silicon.dmg`, `macos-intel.dmg`).",
-  "date": "2026-11-13T16:51:05Z",
-  "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.3.6-darwin-arm64.tar.gz",
-  "size": 9167151,
-  "signature": "w5k3Krq9pAJeufpyW9ojW44gg7pBRr/Iw2YGfVo9FCxw+eNKCt2czrtM4YfIyANuSe5B0vc/oVQB4pW10iT1Bg=="
+  "version": "0.3.7",
+  "notes": "### Changed\n\n- Public download page: side-by-side macOS / Windows cards, segmented Mac arch picker, device detection, install hints, and Open Graph metadata.",
+  "date": "2026-11-14T03:14:00Z",
+  "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.3.7-darwin-arm64.tar.gz",
+  "size": 9167145,
+  "signature": "oi/iBYT9jAkYA62hJDoitU9rF6LfpLYO6WpfufR5BoeNwDer778nROqZOd/F7FdK0PuoUypDSbeeJRKSRkNoCw==",
+  "deltas": [
+    {
+      "from": "0.3.6",
+      "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.3.6-to-0.3.7-darwin-arm64.delta",
+      "size": 16648,
+      "signature": "xx4FUguZ/0rt/kYSQa41lvxVFTVxmn6PLMvkxwqHIGgpgzK5fXs4/n5t0eeROasl5yEVq9OUV63Enba1lefWDw=="
+    }
+  ],
+  "previous": [
+    {
+      "version": "0.3.6",
+      "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.3.6-darwin-arm64.tar.gz",
+      "size": 9167151,
+      "signature": "w5k3Krq9pAJeufpyW9ojW44gg7pBRr/Iw2YGfVo9FCxw+eNKCt2czrtM4YfIyANuSe5B0vc/oVQB4pW10iT1Bg=="
+    }
+  ]
 }

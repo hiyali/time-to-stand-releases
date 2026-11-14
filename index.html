@@ -8,6 +8,10 @@
       name="description"
       content="Download Time to Stand for macOS and Windows. Healthy breaks, built into your workday."
     />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Time to Stand — Download" />
+    <meta property="og:description" content="Healthy breaks, built into your workday." />
+    <meta property="og:image" content="https://hiyali.github.io/time-to-stand-releases/updates/icon.png" />
     <link rel="icon" href="updates/icon.png" type="image/png" />
     <style>
       :root {
@@ -18,8 +22,9 @@
         --accent: #e85d3a;
         --accent-hover: #cf4f30;
         --border: #e8e2d9;
-        --shadow: 0 12px 40px rgba(26, 26, 26, 0.08);
-        --radius: 14px;
+        --shadow: 0 8px 28px rgba(26, 26, 26, 0.06);
+        --radius: 16px;
+        --btn-h: 2.75rem;
         font-family: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial,
           sans-serif;
       }
@@ -36,7 +41,7 @@
       }
 
       main {
-        max-width: 28rem;
+        max-width: 42rem;
         margin: 0 auto;
         padding: 3rem 1.25rem 4rem;
         text-align: center;
@@ -70,75 +75,168 @@
         color: var(--muted);
       }
 
-      .actions {
-        display: flex;
-        flex-direction: column;
-        gap: 0.75rem;
+      .version a {
+        color: inherit;
+        text-decoration: underline;
+        text-decoration-color: rgba(92, 92, 92, 0.45);
+        text-underline-offset: 2px;
+      }
+
+      .version a:hover {
+        color: var(--text);
+        text-decoration-color: var(--muted);
+      }
+
+      .platform-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+        align-items: stretch;
+        text-align: left;
+      }
+
+      @media (max-width: 560px) {
+        .platform-grid {
+          grid-template-columns: 1fr;
+        }
       }
 
       .platform {
         display: flex;
         flex-direction: column;
-        gap: 0.5rem;
-        padding: 0.85rem 1rem;
+        gap: 0;
+        padding: 1.1rem 1.15rem 1.15rem;
         border-radius: var(--radius);
         background: var(--card);
         border: 1px solid var(--border);
         box-shadow: var(--shadow);
-        text-align: left;
+        min-height: 100%;
+      }
+
+      .platform.is-recommended {
+        border-color: rgba(232, 93, 58, 0.35);
+        box-shadow: 0 10px 32px rgba(232, 93, 58, 0.08);
+      }
+
+      .platform-header {
+        display: flex;
+        align-items: baseline;
+        justify-content: space-between;
+        gap: 0.5rem;
+        margin-bottom: 1rem;
+        min-height: 1.25rem;
       }
 
       .platform-label {
-        font-size: 0.8125rem;
-        font-weight: 600;
+        font-size: 0.75rem;
+        font-weight: 650;
         color: var(--muted);
         text-transform: uppercase;
-        letter-spacing: 0.04em;
+        letter-spacing: 0.06em;
       }
 
-      .platform-buttons {
+      .platform-badge {
+        display: none;
+        font-size: 0.6875rem;
+        font-weight: 500;
+        color: var(--accent);
+        white-space: nowrap;
+      }
+
+      .platform.is-recommended .platform-badge {
+        display: block;
+      }
+
+      .platform-actions {
+        flex: 1;
         display: flex;
-        flex-wrap: wrap;
-        gap: 0.5rem;
+        flex-direction: column;
+        justify-content: flex-start;
+        min-height: calc(var(--btn-h) + 6px + 2.95rem);
       }
 
-      a.btn {
+      .arch-switch {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 0;
+        padding: 3px;
+        border-radius: calc(var(--radius) - 6px);
+        background: #f0ebe3;
+        border: 1px solid var(--border);
+      }
+
+      .arch-switch a {
         display: flex;
         align-items: center;
         justify-content: center;
-        gap: 0.5rem;
-        padding: 0.9rem 1.25rem;
-        border-radius: calc(var(--radius) - 4px);
-        font-size: 1rem;
+        height: var(--btn-h);
+        padding: 0 0.5rem;
+        border-radius: calc(var(--radius) - 9px);
+        font-size: 0.8125rem;
+        font-weight: 600;
+        text-decoration: none;
+        color: var(--muted);
+        white-space: nowrap;
+        transition: background 0.15s ease, color 0.15s ease, box-shadow 0.15s ease;
+      }
+
+      .arch-switch a:hover:not(.is-active) {
+        color: var(--text);
+        background: rgba(255, 255, 255, 0.55);
+      }
+
+      .arch-switch a.is-active {
+        color: #fff;
+        background: var(--accent);
+        box-shadow: 0 2px 8px rgba(232, 93, 58, 0.28);
+      }
+
+      .arch-switch a:focus-visible {
+        outline: 2px solid var(--accent);
+        outline-offset: 1px;
+      }
+
+      a.btn-download {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: calc(var(--btn-h) + 6px);
+        padding: 0 1rem;
+        border-radius: calc(var(--radius) - 6px);
+        font-size: 0.9375rem;
         font-weight: 600;
         text-decoration: none;
         color: #fff;
         background: var(--accent);
-        box-shadow: 0 4px 14px rgba(232, 93, 58, 0.35);
+        border: 1px solid transparent;
+        box-shadow: 0 3px 12px rgba(232, 93, 58, 0.22);
         transition: background 0.15s ease, transform 0.1s ease;
-        flex: 1 1 8rem;
-        min-width: 0;
       }
 
-      a.btn:hover {
+      a.btn-download:hover {
         background: var(--accent-hover);
         transform: translateY(-1px);
       }
 
-      a.btn:focus-visible {
+      a.btn-download:focus-visible {
         outline: 2px solid var(--accent);
         outline-offset: 3px;
       }
 
-      a.btn.secondary {
-        background: var(--card);
-        color: var(--text);
-        border: 1px solid var(--border);
-        box-shadow: none;
+      .platform-foot {
+        margin: 0.85rem 0 0;
+        min-height: 2.1rem;
+        font-size: 0.6875rem;
+        line-height: 1.5;
+        color: var(--muted);
       }
 
-      a.btn.secondary:hover {
-        background: #f5f2ed;
+      .install-hints-elsewhere {
+        margin: 1rem 0 0;
+        font-size: 0.75rem;
+        line-height: 1.55;
+        color: var(--muted);
+        text-align: left;
       }
 
       footer {
@@ -160,42 +258,58 @@
   </head>
   <body>
     <main>
-      <img class="logo" src="updates/icon.png" width="88" height="88" alt="" />
+      <img class="logo" src="updates/icon.png" width="88" height="88" alt="Time to Stand" />
       <h1>Time to Stand</h1>
       <p class="tagline">Healthy breaks, built into your workday.</p>
-      <p class="version">Version 0.3.6</p>
+      <p class="version">
+        Version
+        <a id="version-link" href="https://github.com/hiyali/time-to-stand/releases">0.3.7</a>
+      </p>
 
-      <div class="actions" aria-label="Download installers">
-        <section class="platform" aria-labelledby="mac-download-label">
-          <span id="mac-download-label" class="platform-label">macOS</span>
-          <div class="platform-buttons">
-            <a
-              class="btn"
-              href="downloads/macos-silicon.dmg"
-              download
-              rel="noopener"
-            >
-              Apple Silicon
-            </a>
-            <a
-              class="btn secondary"
-              href="downloads/macos-intel.dmg"
-              download
-              rel="noopener"
-            >
-              Intel
-            </a>
+      <div class="platform-grid" aria-label="Download installers">
+        <section class="platform" id="platform-mac" aria-labelledby="mac-download-label">
+          <div class="platform-header">
+            <span id="mac-download-label" class="platform-label">macOS</span>
+            <span class="platform-badge">This device</span>
+          </div>
+          <div class="platform-actions">
+            <div class="arch-switch" id="mac-arch-switch" role="group" aria-label="Mac architecture">
+              <a
+                id="btn-mac-silicon"
+                class="is-active"
+                href="downloads/macos-silicon.dmg"
+                download
+                rel="noopener"
+              >
+                Apple Silicon
+              </a>
+              <a id="btn-mac-intel" href="downloads/macos-intel.dmg" download rel="noopener">
+                Intel
+              </a>
+            </div>
+            <p class="platform-foot" id="hint-mac">
+              Open the .dmg, drag to Applications. Blocked? Allow in Privacy &amp; Security.
+            </p>
           </div>
         </section>
-        <a
-          class="btn"
-          href="downloads/windows-setup.exe"
-          download
-          rel="noopener"
-        >
-          Download for Windows
-        </a>
+
+        <section class="platform" id="platform-win" aria-labelledby="win-download-label">
+          <div class="platform-header">
+            <span id="win-download-label" class="platform-label">Windows</span>
+            <span class="platform-badge">This device</span>
+          </div>
+          <div class="platform-actions">
+            <a class="btn-download" href="downloads/windows-setup.exe" download rel="noopener">
+              Download
+            </a>
+            <p class="platform-foot" id="hint-win">
+              Run the installer. SmartScreen? More info → Run anyway.
+            </p>
+          </div>
+        </section>
       </div>
+
+      <p class="install-hints-elsewhere" id="install-hints-both" hidden></p>
 
       <footer>
         <p>© Mayak, LTD.</p>
@@ -204,5 +318,77 @@
         </p>
       </footer>
     </main>
+    <script>
+      (function () {
+        var ua = navigator.userAgent || "";
+        var platform =
+          (navigator.userAgentData && navigator.userAgentData.platform) || navigator.platform || "";
+
+        var isMac = /Mac|macOS|Macintosh/i.test(platform) || /Mac OS X/i.test(ua);
+        var isWin = /Win/i.test(platform) || /Windows/i.test(ua);
+
+        var mac = document.getElementById("platform-mac");
+        var win = document.getElementById("platform-win");
+        var silicon = document.getElementById("btn-mac-silicon");
+        var intel = document.getElementById("btn-mac-intel");
+        var hintsBoth = document.getElementById("install-hints-both");
+        var versionLink = document.getElementById("version-link");
+
+        if (versionLink && versionLink.textContent.trim()) {
+          versionLink.href =
+            "https://github.com/hiyali/time-to-stand/releases/tag/v" +
+            versionLink.textContent.trim().replace(/^v/i, "");
+        }
+
+        function setMacArchActive(active, inactive) {
+          active.classList.add("is-active");
+          inactive.classList.remove("is-active");
+        }
+
+        function preferIntelMac() {
+          if (/Intel Mac OS X/i.test(ua)) {
+            return true;
+          }
+          return false;
+        }
+
+        function applyMacArchDefault() {
+          if (preferIntelMac()) {
+            setMacArchActive(intel, silicon);
+          } else {
+            setMacArchActive(silicon, intel);
+          }
+        }
+
+        applyMacArchDefault();
+
+        if (navigator.userAgentData && navigator.userAgentData.getHighEntropyValues) {
+          navigator.userAgentData
+            .getHighEntropyValues(["architecture"])
+            .then(function (values) {
+              if (values.architecture === "x86") {
+                setMacArchActive(intel, silicon);
+              } else if (values.architecture) {
+                setMacArchActive(silicon, intel);
+              }
+            })
+            .catch(function () {});
+        }
+
+        if (isMac) {
+          mac.classList.add("is-recommended");
+          mac.parentElement.insertBefore(mac, win);
+        } else if (isWin) {
+          win.classList.add("is-recommended");
+          win.parentElement.insertBefore(win, mac);
+        } else {
+          mac.classList.remove("is-recommended");
+          win.classList.remove("is-recommended");
+          hintsBoth.hidden = false;
+          hintsBoth.textContent =
+            "macOS: open .dmg → Applications. Windows: run the .exe installer.";
+        }
+      })();
+    </script>
   </body>
 </html>
