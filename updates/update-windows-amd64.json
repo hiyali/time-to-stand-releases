@@ -1,30 +1,30 @@
 {
-  "version": "0.3.14",
-  "notes": "No user-facing changes in this release.",
-  "date": "2026-11-14T15:16:11Z",
-  "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.3.14-windows-amd64.tar.gz",
-  "size": 8410855,
-  "signature": "zA2uXmRzYya9CW/PZYyshXt8c9cs6yNbhlXAtih/+qFXszM+tA/7Z+qe17HwtbkDMvitxKTf6NP6T6Ou6CW+BA==",
+  "version": "0.3.15",
+  "notes": "### Changed\n\n- When choosing an update source, **Official** is listed first; copy uses “China mainland mirror” (EN) and **国内路线** (ZH).",
+  "date": "2026-11-14T15:30:38Z",
+  "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.3.15-windows-amd64.tar.gz",
+  "size": 8410959,
+  "signature": "/V2qepOIkPoxcVN0KLqtFtRkqnpxmDF1fgC6pvaKFrHXM626pL6mA3r53XuiE9giHKQdj6NXjEIWhnbFdb2KDw==",
   "deltas": [
     {
-      "from": "0.3.13",
-      "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.3.13-to-0.3.14-windows-amd64.delta",
-      "size": 17744,
-      "signature": "3Qanb9A8M7js5szEeSxUKFlAVNRaC9CjYtjFBbMQE1185SYY1phE9tluGxXy6y9xiMaLsHadxkX9NYCkvbPTAg=="
+      "from": "0.3.14",
+      "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.3.14-to-0.3.15-windows-amd64.delta",
+      "size": 137363,
+      "signature": "McZKHC5x3YTlK2+z0pLurdm1fwTj+ODDslms/rl/OYJ3qhO0vHmm3mnQGo3OrapQwNVqeH3DurhmgaHlganBCQ=="
     }
   ],
   "previous": [
+    {
+      "version": "0.3.14",
+      "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.3.14-windows-amd64.tar.gz",
+      "size": 8410855,
+      "signature": "zA2uXmRzYya9CW/PZYyshXt8c9cs6yNbhlXAtih/+qFXszM+tA/7Z+qe17HwtbkDMvitxKTf6NP6T6Ou6CW+BA=="
+    },
     {
       "version": "0.3.13",
       "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.3.13-windows-amd64.tar.gz",
       "size": 8410854,
       "signature": "VL7t2YHvkvfCkymfq8BFDmxDYZBYWTAa1t1G8BCfAU+bEdvmBIz7H309smSZgf9RDrG7lr7WQXvfEUb+SZRPBw=="
-    },
-    {
-      "version": "0.3.12",
-      "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.3.12-windows-amd64.tar.gz",
-      "size": 8404593,
-      "signature": "zYHUfgom91Cw7el8f5V2i0SZQLW+KUkdHMGh4Pn0ewgfh+XBQip5E2YNopmu0/cdIxBz7DFa/i5gKcSDTA2UCQ=="
     }
   ]
 }
