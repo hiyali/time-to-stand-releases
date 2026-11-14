@@ -1,30 +1,30 @@
 {
-  "version": "0.3.9",
-  "notes": "### Changed\n\n- Public download page: version number is plain text (no link to the private app repository).\n- macOS login at startup: use MyGo `SetOpenAtLogin` (app bundle / `SMAppService` on macOS 13+) instead of a LaunchAgent that pointed at the Mach-O binary (fixes generic icon in System Settings background items).",
-  "date": "2026-11-14T06:03:14Z",
-  "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.3.9-darwin-amd64.tar.gz",
-  "size": 9915861,
-  "signature": "b8zaNkvcBlRgrc26AvajD0e86NJAizgM5o+DsV7jnZONwOjc0iQQ4vkbs6xrTQk+oAi80Aoyi9XkUtYAFCjYDA==",
+  "version": "0.3.10",
+  "notes": "### Changed\n\n- Settings window: slightly smaller mode label and session timer type; more spacing above the tagline.\n- Changelog and public release wording: user-facing text only (no framework names).",
+  "date": "2026-11-14T06:26:58Z",
+  "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.3.10-darwin-amd64.tar.gz",
+  "size": 9915901,
+  "signature": "l7OwyYQ1OHs0+rNbco0s7HI85y3NAxA5paequsO3HXaxw29CJYUZ/frnrWxAjEs8Z22nYPCKzwMkTsorbHWCDQ==",
   "deltas": [
     {
-      "from": "0.3.8",
-      "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.3.8-to-0.3.9-darwin-amd64.delta",
-      "size": 535661,
-      "signature": "r8LcuQA1PAQOEdWHlMyyMeanZm1rFWA2/RrYvm1AcDyNjyAobp/mA9Kt+0ocfU5sCgQg14QvzmnhTWz6JYC4DA=="
+      "from": "0.3.9",
+      "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.3.9-to-0.3.10-darwin-amd64.delta",
+      "size": 23829,
+      "signature": "Igj9amVzUN41Zk5ytV/dbC7r/hyKkBZ6k2nk7bazl/o6HOsd1/wqTahU3ip/3j8HepMi0q94wuehiUr1GrlPCA=="
     }
   ],
   "previous": [
+    {
+      "version": "0.3.9",
+      "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.3.9-darwin-amd64.tar.gz",
+      "size": 9915861,
+      "signature": "b8zaNkvcBlRgrc26AvajD0e86NJAizgM5o+DsV7jnZONwOjc0iQQ4vkbs6xrTQk+oAi80Aoyi9XkUtYAFCjYDA=="
+    },
     {
       "version": "0.3.8",
       "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.3.8-darwin-amd64.tar.gz",
       "size": 9916353,
       "signature": "fKbe7cykvMS4QiuF67wEg443TidO2xmeYLmbJ0pLPElHeNJ5/FAgljlZtEfSYzBYlLvDumo1XSr2UZlnic/qAw=="
-    },
-    {
-      "version": "0.3.7",
-      "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.3.7-darwin-amd64.tar.gz",
-      "size": 9916445,
-      "signature": "70rHZg6x/KYQRQsxZyQrSJUTw55uLm8C0Kly7BTawmGo+2UmM+vhXeYgHWN4g/HlPjVMqZuOmU0u5yhTCFi1DA=="
     }
   ]
 }
