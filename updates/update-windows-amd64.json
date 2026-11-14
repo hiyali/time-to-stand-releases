@@ -1,30 +1,30 @@
 {
-  "version": "0.3.12",
-  "notes": "### Changed\n\n- macOS app icon: new full-bleed artwork in the Dock and Launchpad.\n- Settings and About: in-window app icon uses rounded corners aligned with the system icon.",
-  "date": "2026-11-14T09:01:36Z",
-  "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.3.12-windows-amd64.tar.gz",
-  "size": 8404593,
-  "signature": "zYHUfgom91Cw7el8f5V2i0SZQLW+KUkdHMGh4Pn0ewgfh+XBQip5E2YNopmu0/cdIxBz7DFa/i5gKcSDTA2UCQ==",
+  "version": "0.3.13",
+  "notes": "### Added\n\n- When an update is available, choose **Domestic** (mainland mirror) or **Official** (GitHub Pages) before downloading.",
+  "date": "2026-11-14T14:42:32Z",
+  "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.3.13-windows-amd64.tar.gz",
+  "size": 8410856,
+  "signature": "LrtI+wZnW47XIdTQE36wg5D51WPBnx49WYO00SBvFpglOMBvyiJk8lD6d6J3Wh8hegbmws+UHQDaCdCtDqj7Dw==",
   "deltas": [
     {
-      "from": "0.3.11",
-      "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.3.11-to-0.3.12-windows-amd64.delta",
-      "size": 1714811,
-      "signature": "ARZNqdEwzrr20jtVlEJGGlIyAGedM6kOoZv73mnYsUSc4FwQfbUG8qj+FSyY+6ZR36EvywWEUyDDojlXvR9MBg=="
+      "from": "0.3.12",
+      "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.3.12-to-0.3.13-windows-amd64.delta",
+      "size": 504970,
+      "signature": "w+lB3Jx2gRccfC5VjODyk+/IF5oNmcWYj9ZqDtzkSDkHFlzhGCleP/BS5BJd1cTQLyJzD0Np8Ekk7G3DWtErAg=="
     }
   ],
   "previous": [
+    {
+      "version": "0.3.12",
+      "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.3.12-windows-amd64.tar.gz",
+      "size": 8404593,
+      "signature": "zYHUfgom91Cw7el8f5V2i0SZQLW+KUkdHMGh4Pn0ewgfh+XBQip5E2YNopmu0/cdIxBz7DFa/i5gKcSDTA2UCQ=="
+    },
     {
       "version": "0.3.11",
       "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.3.11-windows-amd64.tar.gz",
       "size": 8424781,
       "signature": "pKBYC9APa29w1oUhQBvNYUgVXAk9Z4Rt8vLxW6FcukBXWZHskFpKaDwgivrUiOuI/EkwO84gBiXX42ktVZ4bCA=="
-    },
-    {
-      "version": "0.3.10",
-      "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.3.10-windows-amd64.tar.gz",
-      "size": 8369717,
-      "signature": "nue57U8L81fuKblsWGK7ccrYH1/Kx7qZbpM8ODhiNQROsRvRU31QoDsHSexFHBQ9j/CXovsc7tjeVHqsmywCBw=="
     }
   ]
 }

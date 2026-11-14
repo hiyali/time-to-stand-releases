@@ -1,30 +1,30 @@
 {
-  "version": "0.3.12",
-  "notes": "### Changed\n\n- macOS app icon: new full-bleed artwork in the Dock and Launchpad.\n- Settings and About: in-window app icon uses rounded corners aligned with the system icon.",
-  "date": "2026-11-14T09:01:02Z",
-  "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.3.12-darwin-amd64.tar.gz",
-  "size": 9789565,
-  "signature": "l/HEpa8r+4bGiOBHAR+90bWsm2SAzcsFLVJqSU577LLyUCPfTSAt9n4U+nmWw8qMsV4JY14b+2FU7xSEkxtDBA==",
+  "version": "0.3.13",
+  "notes": "### Added\n\n- When an update is available, choose **Domestic** (mainland mirror) or **Official** (GitHub Pages) before downloading.",
+  "date": "2026-11-14T14:41:22Z",
+  "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.3.13-darwin-amd64.tar.gz",
+  "size": 9794442,
+  "signature": "F1BPovUxTNymEZ/+Wddh8wi5IR/n671kjce06rYqagorxT/TMa/Dcm4GvPd0zwO6Y8P4ZwuqxvAEa5epzpSvAw==",
   "deltas": [
     {
-      "from": "0.3.11",
-      "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.3.11-to-0.3.12-darwin-amd64.delta",
-      "size": 3076255,
-      "signature": "/D33woPlne+9Z3VH8Z5zM4AEWvHfRlybS4Bl1SqYPT5pYZgtBYt3bmVkGy6Wl+iUSD2NHcKCne0UOoYUSyqZAw=="
+      "from": "0.3.12",
+      "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.3.12-to-0.3.13-darwin-amd64.delta",
+      "size": 674970,
+      "signature": "KwLI75NAvZ4KcN2kBAwax66PglNq/wYUjP9DO8nT3ShGF3V0pw55FBO2hJrW9zAbCf3sYXCvv9++6AN3TzMiBQ=="
     }
   ],
   "previous": [
+    {
+      "version": "0.3.12",
+      "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.3.12-darwin-amd64.tar.gz",
+      "size": 9789565,
+      "signature": "l/HEpa8r+4bGiOBHAR+90bWsm2SAzcsFLVJqSU577LLyUCPfTSAt9n4U+nmWw8qMsV4JY14b+2FU7xSEkxtDBA=="
+    },
     {
       "version": "0.3.11",
       "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.3.11-darwin-amd64.tar.gz",
       "size": 10010658,
       "signature": "fJjXh2nSORammkAnetn0/mUkPnPOGaO1id4Ye/5aHxasrtyHvQla2REhhBtC1JdPaJ6jTb6m9aSzSwfA9jxlAw=="
-    },
-    {
-      "version": "0.3.10",
-      "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.3.10-darwin-amd64.tar.gz",
-      "size": 9915901,
-      "signature": "l7OwyYQ1OHs0+rNbco0s7HI85y3NAxA5paequsO3HXaxw29CJYUZ/frnrWxAjEs8Z22nYPCKzwMkTsorbHWCDQ=="
     }
   ]
 }
