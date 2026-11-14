@@ -75,18 +75,6 @@
         color: var(--muted);
       }
 
-      .version a {
-        color: inherit;
-        text-decoration: underline;
-        text-decoration-color: rgba(92, 92, 92, 0.45);
-        text-underline-offset: 2px;
-      }
-
-      .version a:hover {
-        color: var(--text);
-        text-decoration-color: var(--muted);
-      }
-
       .platform-grid {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -261,10 +249,7 @@
       <img class="logo" src="updates/icon.png" width="88" height="88" alt="Time to Stand" />
       <h1>Time to Stand</h1>
       <p class="tagline">Healthy breaks, built into your workday.</p>
-      <p class="version">
-        Version
-        <a id="version-link" href="https://github.com/hiyali/time-to-stand/releases">0.3.8</a>
-      </p>
+      <p class="version">Version 0.3.9</p>
 
       <div class="platform-grid" aria-label="Download installers">
         <section class="platform" id="platform-mac" aria-labelledby="mac-download-label">
@@ -332,13 +317,6 @@
         var silicon = document.getElementById("btn-mac-silicon");
         var intel = document.getElementById("btn-mac-intel");
         var hintsBoth = document.getElementById("install-hints-both");
-        var versionLink = document.getElementById("version-link");
-
-        if (versionLink && versionLink.textContent.trim()) {
-          versionLink.href =
-            "https://github.com/hiyali/time-to-stand/releases/tag/v" +
-            versionLink.textContent.trim().replace(/^v/i, "");
-        }
 
         function setMacArchActive(active, inactive) {
           active.classList.add("is-active");
