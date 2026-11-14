@@ -1,22 +1,30 @@
 {
-  "version": "0.3.13",
-  "notes": "### Added\n\n- When an update is available, choose **Domestic** (mainland mirror) or **Official** (GitHub Pages) before downloading.",
-  "date": "2026-11-14T15:05:03Z",
-  "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.3.13-darwin-amd64.tar.gz",
-  "size": 9794442,
-  "signature": "su50WATOibTXVi/dG08C2jAvt/a5kQFNtaDbO1JXP1AKGrp90DdAQ8j96/LqUa8TrNayhQzoNum6SQvJKKULCg==",
+  "version": "0.3.14",
+  "notes": "No user-facing changes in this release.",
+  "date": "2026-11-14T15:15:04Z",
+  "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.3.14-darwin-amd64.tar.gz",
+  "size": 9794450,
+  "signature": "Z30dKM+HmckU241fpf06SYxns4E/gPlrMx5+Dd42FJlojOtRnxAJcqf7P5Pf/qqJKSZQHD8J4LankynU16v3AA==",
+  "deltas": [
+    {
+      "from": "0.3.13",
+      "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.3.13-to-0.3.14-darwin-amd64.delta",
+      "size": 18238,
+      "signature": "FUvOt80svS4X4UQXqOHOnODVxpPEX7WayNiaZ0i5dip5s7SCVaZnpCnCzCJXewM610TXidPFZXvpCyLai+SvAQ=="
+    }
+  ],
   "previous": [
+    {
+      "version": "0.3.13",
+      "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.3.13-darwin-amd64.tar.gz",
+      "size": 9794442,
+      "signature": "su50WATOibTXVi/dG08C2jAvt/a5kQFNtaDbO1JXP1AKGrp90DdAQ8j96/LqUa8TrNayhQzoNum6SQvJKKULCg=="
+    },
     {
       "version": "0.3.12",
       "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.3.12-darwin-amd64.tar.gz",
       "size": 9789565,
       "signature": "l/HEpa8r+4bGiOBHAR+90bWsm2SAzcsFLVJqSU577LLyUCPfTSAt9n4U+nmWw8qMsV4JY14b+2FU7xSEkxtDBA=="
-    },
-    {
-      "version": "0.3.11",
-      "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.3.11-darwin-amd64.tar.gz",
-      "size": 10010658,
-      "signature": "fJjXh2nSORammkAnetn0/mUkPnPOGaO1id4Ye/5aHxasrtyHvQla2REhhBtC1JdPaJ6jTb6m9aSzSwfA9jxlAw=="
     }
   ]
 }
