@@ -323,19 +323,8 @@
           inactive.classList.remove("is-active");
         }
 
-        function preferIntelMac() {
-          if (/Intel Mac OS X/i.test(ua)) {
-            return true;
-          }
-          return false;
-        }
-
         function applyMacArchDefault() {
-          if (preferIntelMac()) {
-            setMacArchActive(intel, silicon);
-          } else {
-            setMacArchActive(silicon, intel);
-          }
+          setMacArchActive(silicon, intel);
         }
 
         applyMacArchDefault();
@@ -346,8 +335,6 @@
             .then(function (values) {
               if (values.architecture === "x86") {
                 setMacArchActive(intel, silicon);
-              } else if (values.architecture) {
-                setMacArchActive(silicon, intel);
               }
             })
             .catch(function () {});
