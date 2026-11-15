@@ -1,30 +1,30 @@
 {
-  "version": "0.3.16",
-  "notes": "### Changed\n\n- **Check for Updates**: a window shows **Official** and **China mainland mirror** routes while both are checked; you can start the update from one route as soon as it is ready (the other check is cancelled).\n- Windows: after the focus target is reached, the tray ring blinks between full and empty to show you are past target.\n\n### Fixed\n\n- Windows: tray ring no longer appears empty when progress reaches 100%.\n- macOS: removed the secondary notification path that could pop up while the system was asking for notification permission.",
-  "date": "2026-11-15T04:59:26Z",
-  "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.3.16-windows-amd64.tar.gz",
-  "size": 8418099,
-  "signature": "Qfd6FEGUOAnaJVs41+FypfwYEDqwW9Ir2ihbLajlqY07zPevmq0gmLjqAHeI/A6OFtKFEpEVdeetCfcQxjIACw==",
+  "version": "0.3.17",
+  "notes": "### Added\n\n- **Reminder type** (Settings and menu): **System notification** or **Full-screen prompt** when a focus target is reached.\n- Full-screen reminder: live focus timer, **Start Move** to switch to a move segment, **Got it** to dismiss without changing mode.\n\n### Changed\n\n- Windows: tray icon uses a colored progress ring with a **Ts** mark in the center.\n- Help text mentions reminder type options.",
+  "date": "2026-11-15T05:57:15Z",
+  "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.3.17-windows-amd64.tar.gz",
+  "size": 8428552,
+  "signature": "8vunY+az+W7jZofyGmFvSpjLWZ08MAtuDAHW3i94tMxEh+l0mtJ20YQrfRO2oT1F8z8dn8/6SPqiEKVjDXxRCw==",
   "deltas": [
     {
-      "from": "0.3.15",
-      "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.3.15-to-0.3.16-windows-amd64.delta",
-      "size": 471099,
-      "signature": "Yw0Y6qzn8ycH2/BbEJrRNZ3QKEm5I6nk3AVA4x+olSop3CdOUEHI7Ajkv1BM/fKDuuX68N4Woj/FdxkVQH4aBQ=="
+      "from": "0.3.16",
+      "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.3.16-to-0.3.17-windows-amd64.delta",
+      "size": 494713,
+      "signature": "a4dK5Su2HPgDZHvTqRa7Z6+KYBJ/EREGFBb/3AfAvBGsdgzwCX7PEMKZHJcBsw1arZPPo8x0ym3Rc8WVKGN9DQ=="
     }
   ],
   "previous": [
+    {
+      "version": "0.3.16",
+      "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.3.16-windows-amd64.tar.gz",
+      "size": 8418099,
+      "signature": "Qfd6FEGUOAnaJVs41+FypfwYEDqwW9Ir2ihbLajlqY07zPevmq0gmLjqAHeI/A6OFtKFEpEVdeetCfcQxjIACw=="
+    },
     {
       "version": "0.3.15",
       "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.3.15-windows-amd64.tar.gz",
       "size": 8410959,
       "signature": "/V2qepOIkPoxcVN0KLqtFtRkqnpxmDF1fgC6pvaKFrHXM626pL6mA3r53XuiE9giHKQdj6NXjEIWhnbFdb2KDw=="
-    },
-    {
-      "version": "0.3.14",
-      "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.3.14-windows-amd64.tar.gz",
-      "size": 8410855,
-      "signature": "zA2uXmRzYya9CW/PZYyshXt8c9cs6yNbhlXAtih/+qFXszM+tA/7Z+qe17HwtbkDMvitxKTf6NP6T6Ou6CW+BA=="
     }
   ]
 }
