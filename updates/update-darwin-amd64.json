@@ -1,30 +1,30 @@
 {
-  "version": "0.3.15",
-  "notes": "### Changed\n\n- When choosing an update source, **Official** is listed first; copy uses “China mainland mirror” (EN) and **国内路线** (ZH).",
-  "date": "2026-11-14T15:29:47Z",
-  "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.3.15-darwin-amd64.tar.gz",
-  "size": 9794746,
-  "signature": "ofBE+XwpUjwJhNmaMmVjjWntID1i3HJaw7lPdStdzX92C7QwLeGygtUVIMWESwUL+v8dxLW7ElF5XVqZN3MGAA==",
+  "version": "0.3.16",
+  "notes": "### Changed\n\n- **Check for Updates**: a window shows **Official** and **China mainland mirror** routes while both are checked; you can start the update from one route as soon as it is ready (the other check is cancelled).\n- Windows: after the focus target is reached, the tray ring blinks between full and empty to show you are past target.\n\n### Fixed\n\n- Windows: tray ring no longer appears empty when progress reaches 100%.\n- macOS: removed the secondary notification path that could pop up while the system was asking for notification permission.",
+  "date": "2026-11-15T04:58:31Z",
+  "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.3.16-darwin-amd64.tar.gz",
+  "size": 9799554,
+  "signature": "724s8E2IXLadwTekcFZ84Nmwlys2sT2RZTVwFaSootWWeMdh091Ob3/QD0S2VXsbECEmqs9/r6myADAhbmHmAQ==",
   "deltas": [
     {
-      "from": "0.3.14",
-      "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.3.14-to-0.3.15-darwin-amd64.delta",
-      "size": 248373,
-      "signature": "Rgi6gStKaPfxObKJMOU1JZk/epVZYIDF7d4bQkz08kxdCaZ8Dh5aPN/Fsew1NdF48bhWjorv5xn8YZenlBH2Cg=="
+      "from": "0.3.15",
+      "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.3.15-to-0.3.16-darwin-amd64.delta",
+      "size": 610262,
+      "signature": "amuZbCJjPakKM7GXPjWiwUXGhxyNG9TarphTQRc5oGSFNWcm2sbJOEO6odem45A+fgeV8kv4VONdYwJl2OGgDw=="
     }
   ],
   "previous": [
+    {
+      "version": "0.3.15",
+      "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.3.15-darwin-amd64.tar.gz",
+      "size": 9794746,
+      "signature": "ofBE+XwpUjwJhNmaMmVjjWntID1i3HJaw7lPdStdzX92C7QwLeGygtUVIMWESwUL+v8dxLW7ElF5XVqZN3MGAA=="
+    },
     {
       "version": "0.3.14",
       "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.3.14-darwin-amd64.tar.gz",
       "size": 9794450,
       "signature": "Z30dKM+HmckU241fpf06SYxns4E/gPlrMx5+Dd42FJlojOtRnxAJcqf7P5Pf/qqJKSZQHD8J4LankynU16v3AA=="
-    },
-    {
-      "version": "0.3.13",
-      "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.3.13-darwin-amd64.tar.gz",
-      "size": 9794442,
-      "signature": "su50WATOibTXVi/dG08C2jAvt/a5kQFNtaDbO1JXP1AKGrp90DdAQ8j96/LqUa8TrNayhQzoNum6SQvJKKULCg=="
     }
   ]
 }
