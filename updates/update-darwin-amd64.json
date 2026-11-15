@@ -1,30 +1,30 @@
 {
-  "version": "0.3.18",
-  "notes": "### Fixed\n\n- **Check for Updates**: the dual-route window refreshes while checks run (no longer stuck on “Checking…”).\n- Background update checks use the same official / mirror route flow; the install window appears only after you pick a route, not straight from the automatic check.",
-  "date": "2026-11-15T06:59:03Z",
-  "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.3.18-darwin-amd64.tar.gz",
-  "size": 9810684,
-  "signature": "6yQ2mTi5ejA5jTX8w2Myn/O/I3C+weeDP3jRgU3xsh30A1T20JrYlGI8riLh5GGeFGD8aMFxgs3voEfk7fi1DA==",
+  "version": "0.3.19",
+  "notes": "### Fixed\n\n- **Check for Updates** no longer freezes on “Checking…”; the route window updates and buttons respond after both feeds finish (or time out).",
+  "date": "2026-11-15T07:27:22Z",
+  "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.3.19-darwin-amd64.tar.gz",
+  "size": 9811341,
+  "signature": "aMGob65ZZ4Kcwjbs4KT7VU+szUzF/uJY+09LZIG4hU3W7NFVwAdab8ujXj8ZEOlqVYHFJ+xO24hIoErhT8MdAw==",
   "deltas": [
     {
-      "from": "0.3.17",
-      "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.3.17-to-0.3.18-darwin-amd64.delta",
-      "size": 547205,
-      "signature": "Fq0K1WtPvJ1o6YYN5/6fVqspdkkqk9uoYP/uUVlbs62bMQCdiYlPvPHPotQzYtDwRZ/rPIebMQxGGNwIAawBAg=="
+      "from": "0.3.18",
+      "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.3.18-to-0.3.19-darwin-amd64.delta",
+      "size": 332491,
+      "signature": "aYu8a7Su+64QhKHiRhF/Ey7dHNNd6pqD9M5XyeAJZWcpngm5d1zPRzxu8RHCv1zq+1PBHu26iUusySyEKFCsBg=="
     }
   ],
   "previous": [
+    {
+      "version": "0.3.18",
+      "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.3.18-darwin-amd64.tar.gz",
+      "size": 9810684,
+      "signature": "6yQ2mTi5ejA5jTX8w2Myn/O/I3C+weeDP3jRgU3xsh30A1T20JrYlGI8riLh5GGeFGD8aMFxgs3voEfk7fi1DA=="
+    },
     {
       "version": "0.3.17",
       "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.3.17-darwin-amd64.tar.gz",
       "size": 9806600,
       "signature": "MeQHzJ1iczM7oLzZExfJDC+wdpPNECVedCX3HrIPpfodeQy1siGLNDScSi4vufjmJQw5NpwjWgKTJySAj5OwDw=="
-    },
-    {
-      "version": "0.3.16",
-      "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.3.16-darwin-amd64.tar.gz",
-      "size": 9799554,
-      "signature": "724s8E2IXLadwTekcFZ84Nmwlys2sT2RZTVwFaSootWWeMdh091Ob3/QD0S2VXsbECEmqs9/r6myADAhbmHmAQ=="
     }
   ]
 }
