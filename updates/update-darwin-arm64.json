@@ -1,30 +1,30 @@
 {
-  "version": "0.3.22",
-  "notes": "### Changed\n\n- **Settings** (English): the options tab is labeled **General** instead of **Preferences**.",
-  "date": "2026-11-16T03:22:18Z",
-  "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.3.22-darwin-arm64.tar.gz",
-  "size": 9241737,
-  "signature": "fBKrSl9ZagvDPPqXy4CFqlgaz/RZHLuKtwm2e0HFgDDwAhpxSJ+CZxl6t8eqT1xYjPSGCA44OZWWwIaELwdkBg==",
+  "version": "0.3.23",
+  "notes": "### Changed\n\n- User-facing modes: **Focus** / **Break** (EN) and **专注** / **休息** (ZH); actions **Start Focus** / **Start Break** (was Focus / Move and 专注 / 活动).",
+  "date": "2026-11-16T08:10:15Z",
+  "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.3.23-darwin-arm64.tar.gz",
+  "size": 9241641,
+  "signature": "NLkw1C18lvOANWyLHibaUWoMLk3+yGAqJXlhVFuaPUyDSccScT5EG05ELNJzO+A03KNVNk4ra34vJo4wxFmPDw==",
   "deltas": [
     {
-      "from": "0.3.21",
-      "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.3.21-to-0.3.22-darwin-arm64.delta",
-      "size": 1504933,
-      "signature": "+quFe8T1uDhSs9MT2321/ZiCnKp7ZDNj088uneVhUGZlBur+mRqDqVJ8whwQRuLd3uxQSqlSizFA/Gz5JMs1Bw=="
+      "from": "0.3.22",
+      "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.3.22-to-0.3.23-darwin-arm64.delta",
+      "size": 109755,
+      "signature": "SATDOi0K5bUNvmlPaKBljQzfOlQezr9rWD7PZdFiZi/4XugQ5ARhcqj76mz/8nSabv5gwooeC3kzcESShMwcBA=="
     }
   ],
   "previous": [
+    {
+      "version": "0.3.22",
+      "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.3.22-darwin-arm64.tar.gz",
+      "size": 9241737,
+      "signature": "fBKrSl9ZagvDPPqXy4CFqlgaz/RZHLuKtwm2e0HFgDDwAhpxSJ+CZxl6t8eqT1xYjPSGCA44OZWWwIaELwdkBg=="
+    },
     {
       "version": "0.3.21",
       "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.3.21-darwin-arm64.tar.gz",
       "size": 9060310,
       "signature": "bu+/oGdP1JTMKqwzRxZKIorFy8VKAmIRlzQBTCWKPRWe00x/ouy4runCWVBM7Bhq7IWl2X4aqhgUk9h4BWLxBQ=="
-    },
-    {
-      "version": "0.3.20",
-      "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.3.20-darwin-arm64.tar.gz",
-      "size": 9060047,
-      "signature": "uv8MqASZcnFSPgiaGGesiC6UBOGOoGtLrB32Zkqb4wA8NIAssDt7s6bh5duqOP2L3vB/6ijqteWiuv+tkPOiBg=="
     }
   ]
 }

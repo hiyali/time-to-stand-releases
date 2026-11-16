@@ -1,30 +1,30 @@
 {
-  "version": "0.3.22",
-  "notes": "### Changed\n\n- **Settings** (English): the options tab is labeled **General** instead of **Preferences**.",
-  "date": "2026-11-16T03:23:21Z",
-  "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.3.22-windows-amd64.tar.gz",
-  "size": 8671927,
-  "signature": "TnKBfEdq2i291hTAXS6pgrOkHVaAm5VyDGUgblxTDldMtMAovPShVR8JgXfyo5w8LbxXwPTribxYZrPx3mzSBQ==",
+  "version": "0.3.23",
+  "notes": "### Changed\n\n- User-facing modes: **Focus** / **Break** (EN) and **专注** / **休息** (ZH); actions **Start Focus** / **Start Break** (was Focus / Move and 专注 / 活动).",
+  "date": "2026-11-16T08:11:19Z",
+  "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.3.23-windows-amd64.tar.gz",
+  "size": 8671422,
+  "signature": "J/rOT0NAqTFTcRwin9vT4ENuBHl7kN+GOtig8u/4+Pg8qn6yJBCL6JEeooEqlTjsmFZzj92KpiAQOgVBAMAWAA==",
   "deltas": [
     {
-      "from": "0.3.21",
-      "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.3.21-to-0.3.22-windows-amd64.delta",
-      "size": 1634685,
-      "signature": "bCvSeCr427niSpaKsDZE8VslKBOtB7546al0wRJk6wuTTfeWDJPtWe7Ynit1c7+nEJRCI69kJDj2XxW/ekQYAQ=="
+      "from": "0.3.22",
+      "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.3.22-to-0.3.23-windows-amd64.delta",
+      "size": 66803,
+      "signature": "njQM/ZlJHlopKNr1yVg+LQaL5BILBYcRBePF4y7UKnDFbcPBhbsNneNOzNvh2QyoyaD1f8RuWiOa0bTYZO/uDA=="
     }
   ],
   "previous": [
+    {
+      "version": "0.3.22",
+      "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.3.22-windows-amd64.tar.gz",
+      "size": 8671927,
+      "signature": "TnKBfEdq2i291hTAXS6pgrOkHVaAm5VyDGUgblxTDldMtMAovPShVR8JgXfyo5w8LbxXwPTribxYZrPx3mzSBQ=="
+    },
     {
       "version": "0.3.21",
       "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.3.21-windows-amd64.tar.gz",
       "size": 8437807,
       "signature": "/3pv9vtTt6Y8PEC5dcPGpfVrWNueZ15E+4t6PX90SBzTJrDvx7BDHWv8y5FAvh3hanEu9qZEeOWjbw4m1wk1Aw=="
-    },
-    {
-      "version": "0.3.20",
-      "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.3.20-windows-amd64.tar.gz",
-      "size": 8431514,
-      "signature": "7VscorFsTibMHlWcTXc6FX8KIJRN3TuMAsrHGIPC2ZLBCJFmseyS+yeY+T9x8+92FqRXLRYtHoz5/T1/3pABCA=="
     }
   ]
 }
