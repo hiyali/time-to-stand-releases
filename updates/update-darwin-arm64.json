@@ -1,30 +1,30 @@
 {
-  "version": "0.3.21",
-  "notes": "### Changed\n\n- **Help**: slightly larger bullet text and more natural line wrapping.\n- **Help** (macOS): notification tips still mention running the app from Finder; the CLI-binary warning is removed from user-facing copy.\n- **Menu** (macOS and Windows): icons beside About, Check for Updates, Settings, Language, and Help.",
-  "date": "2026-11-16T02:23:11Z",
-  "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.3.21-darwin-arm64.tar.gz",
-  "size": 9060310,
-  "signature": "bu+/oGdP1JTMKqwzRxZKIorFy8VKAmIRlzQBTCWKPRWe00x/ouy4runCWVBM7Bhq7IWl2X4aqhgUk9h4BWLxBQ==",
+  "version": "0.3.22",
+  "notes": "### Changed\n\n- **Settings** (English): the options tab is labeled **General** instead of **Preferences**.",
+  "date": "2026-11-16T03:22:18Z",
+  "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.3.22-darwin-arm64.tar.gz",
+  "size": 9241737,
+  "signature": "fBKrSl9ZagvDPPqXy4CFqlgaz/RZHLuKtwm2e0HFgDDwAhpxSJ+CZxl6t8eqT1xYjPSGCA44OZWWwIaELwdkBg==",
   "deltas": [
     {
-      "from": "0.3.20",
-      "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.3.20-to-0.3.21-darwin-arm64.delta",
-      "size": 548335,
-      "signature": "CdliutfbXZ+GXVYKYeTfhNBxufNK+gjtYbv6oquxnp8P4mqGkjR8UDFTeifdKmGwbmfTiQnXaOJWBWONjlOvAQ=="
+      "from": "0.3.21",
+      "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.3.21-to-0.3.22-darwin-arm64.delta",
+      "size": 1504933,
+      "signature": "+quFe8T1uDhSs9MT2321/ZiCnKp7ZDNj088uneVhUGZlBur+mRqDqVJ8whwQRuLd3uxQSqlSizFA/Gz5JMs1Bw=="
     }
   ],
   "previous": [
+    {
+      "version": "0.3.21",
+      "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.3.21-darwin-arm64.tar.gz",
+      "size": 9060310,
+      "signature": "bu+/oGdP1JTMKqwzRxZKIorFy8VKAmIRlzQBTCWKPRWe00x/ouy4runCWVBM7Bhq7IWl2X4aqhgUk9h4BWLxBQ=="
+    },
     {
       "version": "0.3.20",
       "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.3.20-darwin-arm64.tar.gz",
       "size": 9060047,
       "signature": "uv8MqASZcnFSPgiaGGesiC6UBOGOoGtLrB32Zkqb4wA8NIAssDt7s6bh5duqOP2L3vB/6ijqteWiuv+tkPOiBg=="
-    },
-    {
-      "version": "0.3.19",
-      "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.3.19-darwin-arm64.tar.gz",
-      "size": 9059440,
-      "signature": "8zUjnZrmGcX5yi6kAZb+oAPp3eYIs3RLL3TgLDWiH5+Zen2j4Bs7A7Rr9f+8LihqvdL46/5Z8aSeS5vMUee8CQ=="
     }
   ]
 }
