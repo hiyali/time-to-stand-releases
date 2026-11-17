@@ -1,30 +1,30 @@
 {
-  "version": "0.3.25",
-  "notes": "### Fixed\n\n- **China mainland mirror** updates now download from the domestic CDN (install packages were incorrectly still fetched from the official GitHub Pages URLs).",
-  "date": "2026-11-17T03:58:31Z",
-  "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.3.25-windows-amd64.tar.gz",
-  "size": 8686410,
-  "signature": "Ja1iaCl2PRJYAUX+GhOe+sSY6IgLk06YcEbNu2QD3Iv7Aun7Xc+9sJe8npYd+fdMtPPrli6ix3pUfV7R16fZCA==",
+  "version": "0.3.26",
+  "notes": "### Added\n\n- **Global hotkey** (Settings → General): click to record a system-wide shortcut; action can toggle Focus/Break, or force Start Break / Start Focus. Default shows as `⌘⇧B` on Mac or `Ctrl+Shift+B` on Windows (stored as `CmdOrCtrl+…`). Clear with Delete while recording, or the ✕ button.\n- **Hot corner** (off by default): move the pointer into a chosen screen corner and hold briefly to fire the same actions. Ignored while the screen is locked.\n- Optional **beep on trigger** for light feedback when a hotkey or hot corner fires.\n\n### Changed\n\n- Hotkey row uses keycap icons (⌘ / ⇧ / …) with hover tooltips; clear is an icon button.",
+  "date": "2026-11-17T08:17:13Z",
+  "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.3.26-windows-amd64.tar.gz",
+  "size": 8722539,
+  "signature": "g9js+Cps3+UgAMkhbJex/5wnXJR6Ic+z77U9aOCD5l8p8dq5DIdTD+bnouNq0/mdvjjlP/aXcd+otlyYUn8OCw==",
   "deltas": [
     {
-      "from": "0.3.24",
-      "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.3.24-to-0.3.25-windows-amd64.delta",
-      "size": 18393,
-      "signature": "cwgfLh388uluGNGchxlJFy2xFpunKoD8NH8QOsi+ahl7TprkpwjATt5OyLmDTeZj9V5QoOMk/VIOmKRXVwx1BA=="
+      "from": "0.3.25",
+      "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.3.25-to-0.3.26-windows-amd64.delta",
+      "size": 690198,
+      "signature": "moh4R7Y0pfSZo6TXe1PWq8vioyBuAbaFkc0FcvYVcWaebAb+nrfVIHeAaYGTFf1aS9u129rvg82vUs5e1mwWAw=="
     }
   ],
   "previous": [
+    {
+      "version": "0.3.25",
+      "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.3.25-windows-amd64.tar.gz",
+      "size": 8686410,
+      "signature": "Ja1iaCl2PRJYAUX+GhOe+sSY6IgLk06YcEbNu2QD3Iv7Aun7Xc+9sJe8npYd+fdMtPPrli6ix3pUfV7R16fZCA=="
+    },
     {
       "version": "0.3.24",
       "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.3.24-windows-amd64.tar.gz",
       "size": 8686415,
       "signature": "FdphDqcbpzZr5qe48e18X6r9K1yqnvcePwAV6vLClbcI8BeA4AzHmDNLlM/wm2PIpe9sC4dm2SvJ7V+3EqXhCQ=="
-    },
-    {
-      "version": "0.3.23",
-      "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.3.23-windows-amd64.tar.gz",
-      "size": 8671422,
-      "signature": "J/rOT0NAqTFTcRwin9vT4ENuBHl7kN+GOtig8u/4+Pg8qn6yJBCL6JEeooEqlTjsmFZzj92KpiAQOgVBAMAWAA=="
     }
   ]
 }
