@@ -1,30 +1,30 @@
 {
-  "version": "0.3.26",
-  "notes": "### Added\n\n- **Global hotkey** (Settings → General): click to record a system-wide shortcut; action can toggle Focus/Break, or force Start Break / Start Focus. Default shows as `⌘⇧B` on Mac or `Ctrl+Shift+B` on Windows (stored as `CmdOrCtrl+…`). Clear with Delete while recording, or the ✕ button.\n- **Hot corner** (off by default): move the pointer into a chosen screen corner and hold briefly to fire the same actions. Ignored while the screen is locked.\n- Optional **beep on trigger** for light feedback when a hotkey or hot corner fires.\n\n### Changed\n\n- Hotkey row uses keycap icons (⌘ / ⇧ / …) with hover tooltips; clear is an icon button.",
-  "date": "2026-11-17T08:16:03Z",
-  "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.3.26-darwin-amd64.tar.gz",
-  "size": 10086628,
-  "signature": "Kc+VttC3VAJBoFMz3ispH1lSDr7CO0zyJDCguf+prZ7g/8xMWQn00eLUoWIJ/o6UpJFxVnxP8AX6U4VFTXAPBA==",
+  "version": "0.3.27",
+  "notes": "### Added\n\n- **Hot corner modifier** (Settings → General): optionally require holding **⌘/Ctrl**, **Shift**, or **⌥/Alt** while entering the hot corner. Default is none (no key required).",
+  "date": "2026-11-17T08:58:17Z",
+  "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.3.27-darwin-amd64.tar.gz",
+  "size": 10089531,
+  "signature": "W2tfSaf2PMctvrRxaDONX0QaaxOEU7EEuUFSfo0KWGgr0EBK2zttjbowhJduWFYBGGuDG3Szd+5QXrFRqnSoBA==",
   "deltas": [
     {
-      "from": "0.3.25",
-      "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.3.25-to-0.3.26-darwin-amd64.delta",
-      "size": 890589,
-      "signature": "q93YAfy0/I7Rf2K8/Zo5drHBRuGdlHl2Da/JpVgQFJn6KHePWtKFn4b38jKNueu7oX0fDHJ5llyMnCHmTPukAA=="
+      "from": "0.3.26",
+      "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.3.26-to-0.3.27-darwin-amd64.delta",
+      "size": 658845,
+      "signature": "bAYvZHAvbZAZnHj4g3Iefp65ucXv0ws3JTqMXo3nZJcmnEqctElo/IT6sUYjO95VvX5XrctsgilSZHpPhBqeCw=="
     }
   ],
   "previous": [
+    {
+      "version": "0.3.26",
+      "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.3.26-darwin-amd64.tar.gz",
+      "size": 10086628,
+      "signature": "Kc+VttC3VAJBoFMz3ispH1lSDr7CO0zyJDCguf+prZ7g/8xMWQn00eLUoWIJ/o6UpJFxVnxP8AX6U4VFTXAPBA=="
+    },
     {
       "version": "0.3.25",
       "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.3.25-darwin-amd64.tar.gz",
       "size": 10053889,
       "signature": "p5JymIkWW1TW7TfFCl1AiepMHqo+XH8nPeOP8Dx2TmVO11MI5MzD4HTUDhehBGqiDKydYXTr6VSxAiuqfqQXCQ=="
-    },
-    {
-      "version": "0.3.24",
-      "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.3.24-darwin-amd64.tar.gz",
-      "size": 10053884,
-      "signature": "rQgySmq8BLGIrDAPQ2utdPBM/vzZ2pCD/vvqp2y0Kb9cyt5rlDMnEQiQphx8MU7+6pQ4bgBpo21A4IwVNDUKDg=="
     }
   ]
 }
