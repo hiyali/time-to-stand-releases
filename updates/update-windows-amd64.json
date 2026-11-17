@@ -1,30 +1,30 @@
 {
-  "version": "0.3.23",
-  "notes": "### Changed\n\n- User-facing modes: **Focus** / **Break** (EN) and **专注** / **休息** (ZH); actions **Start Focus** / **Start Break** (was Focus / Move and 专注 / 活动).",
-  "date": "2026-11-16T08:11:19Z",
-  "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.3.23-windows-amd64.tar.gz",
-  "size": 8671422,
-  "signature": "J/rOT0NAqTFTcRwin9vT4ENuBHl7kN+GOtig8u/4+Pg8qn6yJBCL6JEeooEqlTjsmFZzj92KpiAQOgVBAMAWAA==",
+  "version": "0.3.24",
+  "notes": "### Fixed\n\n- **Full-screen reminder**: **Start Break** / **Got it** respond on the first click (live timer refresh no longer remounts the buttons each second).",
+  "date": "2026-11-17T03:44:50Z",
+  "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.3.24-windows-amd64.tar.gz",
+  "size": 8686415,
+  "signature": "FdphDqcbpzZr5qe48e18X6r9K1yqnvcePwAV6vLClbcI8BeA4AzHmDNLlM/wm2PIpe9sC4dm2SvJ7V+3EqXhCQ==",
   "deltas": [
     {
-      "from": "0.3.22",
-      "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.3.22-to-0.3.23-windows-amd64.delta",
-      "size": 66803,
-      "signature": "njQM/ZlJHlopKNr1yVg+LQaL5BILBYcRBePF4y7UKnDFbcPBhbsNneNOzNvh2QyoyaD1f8RuWiOa0bTYZO/uDA=="
+      "from": "0.3.23",
+      "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.3.23-to-0.3.24-windows-amd64.delta",
+      "size": 781400,
+      "signature": "9bE2WeZ+Pqs5JBbeGRtdXA0Xy63I0Jzl2sXf6nYxxdHordgriX04QlcpeUldjbQ3GhhUx3kr7jg/ezEGV2XLDA=="
     }
   ],
   "previous": [
+    {
+      "version": "0.3.23",
+      "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.3.23-windows-amd64.tar.gz",
+      "size": 8671422,
+      "signature": "J/rOT0NAqTFTcRwin9vT4ENuBHl7kN+GOtig8u/4+Pg8qn6yJBCL6JEeooEqlTjsmFZzj92KpiAQOgVBAMAWAA=="
+    },
     {
       "version": "0.3.22",
       "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.3.22-windows-amd64.tar.gz",
       "size": 8671927,
       "signature": "TnKBfEdq2i291hTAXS6pgrOkHVaAm5VyDGUgblxTDldMtMAovPShVR8JgXfyo5w8LbxXwPTribxYZrPx3mzSBQ=="
-    },
-    {
-      "version": "0.3.21",
-      "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.3.21-windows-amd64.tar.gz",
-      "size": 8437807,
-      "signature": "/3pv9vtTt6Y8PEC5dcPGpfVrWNueZ15E+4t6PX90SBzTJrDvx7BDHWv8y5FAvh3hanEu9qZEeOWjbw4m1wk1Aw=="
     }
   ]
 }
