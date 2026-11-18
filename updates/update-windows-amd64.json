@@ -1,30 +1,30 @@
 {
-  "version": "0.5.2",
-  "notes": "### Fixed\n\n- **Windows**: only one instance can run; launching again no longer adds extra tray icons. The existing instance opens the settings panel near the tray instead. The first launch also shows that panel once so the tray icon is easier to find.",
-  "date": "2026-11-18T02:24:07Z",
-  "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.5.2-windows-amd64.tar.gz",
-  "size": 8738489,
-  "signature": "AquMI62hb4Y7aswOEsrebS9gQKSQ646QjiHTFo4YdkzuEEvk8HimyW9Oi1/QhxhrfuRsxb79lmtp7JLMbnn/Aw==",
+  "version": "0.5.3",
+  "notes": "### Changed\n\n- **Full-screen break reminder**: the two action buttons stay locked for about 1.5 seconds, with a left-to-right light wipe while the primary button eases from gray to blue and the dismiss button settles to its normal light gray—so the prompt is harder to dismiss by reflex.",
+  "date": "2026-11-18T04:41:25Z",
+  "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.5.3-windows-amd64.tar.gz",
+  "size": 8775429,
+  "signature": "WDJDMv1jGjbNQ1BxCARFb5WfyF3aAEY5fmxRW7h/afwtwf7UMbZ5ejoDC6VdfSjeu/nF314fUia+J0O/3zDaAA==",
   "deltas": [
     {
-      "from": "0.5.1",
-      "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.5.1-to-0.5.2-windows-amd64.delta",
-      "size": 419200,
-      "signature": "x3GjxqcHbnXn276zExG9SDARf9EU0NEH3mAnrufe4Wnkqr7olB216ISZE2yDIGSI88kisED0HPzS1E7Izi8zBQ=="
+      "from": "0.5.2",
+      "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.5.2-to-0.5.3-windows-amd64.delta",
+      "size": 1028702,
+      "signature": "VIAgh7Zb3FTKS0YfXpCzNb8mdFu6J1SKYE9OTJyBzNOKXf1owk/XuJPPDtCffCNrC+CYCgcw9OitO93O+AQWDw=="
     }
   ],
   "previous": [
+    {
+      "version": "0.5.2",
+      "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.5.2-windows-amd64.tar.gz",
+      "size": 8738489,
+      "signature": "AquMI62hb4Y7aswOEsrebS9gQKSQ646QjiHTFo4YdkzuEEvk8HimyW9Oi1/QhxhrfuRsxb79lmtp7JLMbnn/Aw=="
+    },
     {
       "version": "0.5.1",
       "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.5.1-windows-amd64.tar.gz",
       "size": 8735510,
       "signature": "wHWqfAfy3JznTj0yzT4WAB1bZodbRtUXm5ZOK0lk+M1jZMHs8JEcYnoOOrVCfq9++UKlD3x9i4ZrSfVSLOiQBw=="
-    },
-    {
-      "version": "0.5.0",
-      "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.5.0-windows-amd64.tar.gz",
-      "size": 8733278,
-      "signature": "m6IUaoN9FJN6/utZDvHRw528/AZxjFfcholdZ4yiQmDy0whAhlwPE+GoP7J10hbwbegIUrVPHtlZFb+FCQbOBw=="
     }
   ]
 }
