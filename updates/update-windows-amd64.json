@@ -1,30 +1,30 @@
 {
-  "version": "0.5.0",
-  "notes": "### Changed\n\n- Hot corner modifier menu: **Shift** is labeled **Shift (⇧)** (same style as ⌘ / ⌥ on macOS).\n\n### Removed\n\n- Automatic migration from legacy `config.json` (settings are TOML-only under `~/.config/time-to-stand/`).",
-  "date": "2026-11-17T09:49:41Z",
-  "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.5.0-windows-amd64.tar.gz",
-  "size": 8733278,
-  "signature": "m6IUaoN9FJN6/utZDvHRw528/AZxjFfcholdZ4yiQmDy0whAhlwPE+GoP7J10hbwbegIUrVPHtlZFb+FCQbOBw==",
+  "version": "0.5.1",
+  "notes": "### Changed\n\n- **Settings** tabs are now **General**, **Advanced**, and **Time table**. Global hotkey and hot corner options live under **Advanced** (help text updated accordingly).\n- Chinese UI: the General tab is labeled **通用** (was 偏好设置).",
+  "date": "2026-11-18T01:49:18Z",
+  "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.5.1-windows-amd64.tar.gz",
+  "size": 8735510,
+  "signature": "wHWqfAfy3JznTj0yzT4WAB1bZodbRtUXm5ZOK0lk+M1jZMHs8JEcYnoOOrVCfq9++UKlD3x9i4ZrSfVSLOiQBw==",
   "deltas": [
     {
-      "from": "0.3.27",
-      "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.3.27-to-0.5.0-windows-amd64.delta",
-      "size": 471878,
-      "signature": "UdK7v+V3ZBY6Ey1QyukG21kEalHTXXhWyzxN6gnPSRj2196zCJN5S2MEHQdvSqNGr8l68HyBuxdCcTmBvNdZDQ=="
+      "from": "0.5.0",
+      "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.5.0-to-0.5.1-windows-amd64.delta",
+      "size": 417533,
+      "signature": "vZaJh+Xv0OGBAknjS5DEGp4T4cvSBx0ykNaq81W5ftMI11F6iEu8teQeHSzD7AY8arM5d47CZQF8nzrnNkJSDQ=="
     }
   ],
   "previous": [
+    {
+      "version": "0.5.0",
+      "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.5.0-windows-amd64.tar.gz",
+      "size": 8733278,
+      "signature": "m6IUaoN9FJN6/utZDvHRw528/AZxjFfcholdZ4yiQmDy0whAhlwPE+GoP7J10hbwbegIUrVPHtlZFb+FCQbOBw=="
+    },
     {
       "version": "0.3.27",
       "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.3.27-windows-amd64.tar.gz",
       "size": 8727047,
       "signature": "78pUUbzt0MiMp8M/qMYY//PQRePXHicOuMxCo/gxI14/c2yCVJsG4sQAykrKf2hgZISujPqbS7JTGu3tCmsaBg=="
-    },
-    {
-      "version": "0.3.26",
-      "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.3.26-windows-amd64.tar.gz",
-      "size": 8722539,
-      "signature": "g9js+Cps3+UgAMkhbJex/5wnXJR6Ic+z77U9aOCD5l8p8dq5DIdTD+bnouNq0/mdvjjlP/aXcd+otlyYUn8OCw=="
     }
   ]
 }
