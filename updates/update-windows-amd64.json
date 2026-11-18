@@ -1,30 +1,30 @@
 {
-  "version": "0.5.4",
-  "notes": "### Changed\n\n- **Full-screen unlock delay** is configurable in Settings (when Reminder type is Full-screen prompt): None / 0.5s (default) / 1s / 1.5s / 2s / 3s. Also `fullscreen_unlock` in `config.toml`.",
-  "date": "2026-11-18T07:51:34Z",
-  "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.5.4-windows-amd64.tar.gz",
-  "size": 8778767,
-  "signature": "ZlY2GQuASoZL9ymCt/PrtX+zFScPSMaKgfwmn8kGbBLUUdzgh0ZgNhn2gdMu//CNo2+XMxlnWGT4sBjqWRlBAQ==",
+  "version": "0.5.5",
+  "notes": "### Fixed\n\n- **Repeat break reminders** no longer drift later by a few seconds each time (interval is anchored to the scheduled due time).\n\n### Changed\n\n- **Full-screen unlock delay** options: None / 0.2s (default) / 0.5s / 1s / 1.5s / 2s (removed 3s).\n- Automatic update check after launch waits **2 seconds** (was 10).",
+  "date": "2026-11-18T09:03:08Z",
+  "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.5.5-windows-amd64.tar.gz",
+  "size": 8778858,
+  "signature": "v4T70BGbEDbeS/S6SifUuyOTwwY0ENxIvcv4cbek50DNN2sLZeuZ5/RX/0mEHVjHGe75FuqihIGr9h9hFCjFCg==",
   "deltas": [
     {
-      "from": "0.5.3",
-      "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.5.3-to-0.5.4-windows-amd64.delta",
-      "size": 391093,
-      "signature": "QWOXgSsokb87cmKUGnSsBGtlBTWp6GU9rDN+Wb80cSZOYBuzRDnCpzuQ5UsJD7rmmJzhnvvePnn7FNU8NQYqAw=="
+      "from": "0.5.4",
+      "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.5.4-to-0.5.5-windows-amd64.delta",
+      "size": 194005,
+      "signature": "gGkjBmJPRXOFJUohovhZZ/AVbvPL1yNme6cLs20/JcoJXCNC2+Ys5+KLHwXo4lylQoBdchRdTEzL7kyd1VzrAA=="
     }
   ],
   "previous": [
+    {
+      "version": "0.5.4",
+      "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.5.4-windows-amd64.tar.gz",
+      "size": 8778767,
+      "signature": "ZlY2GQuASoZL9ymCt/PrtX+zFScPSMaKgfwmn8kGbBLUUdzgh0ZgNhn2gdMu//CNo2+XMxlnWGT4sBjqWRlBAQ=="
+    },
     {
       "version": "0.5.3",
       "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.5.3-windows-amd64.tar.gz",
       "size": 8775429,
       "signature": "WDJDMv1jGjbNQ1BxCARFb5WfyF3aAEY5fmxRW7h/afwtwf7UMbZ5ejoDC6VdfSjeu/nF314fUia+J0O/3zDaAA=="
-    },
-    {
-      "version": "0.5.2",
-      "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.5.2-windows-amd64.tar.gz",
-      "size": 8738489,
-      "signature": "AquMI62hb4Y7aswOEsrebS9gQKSQ646QjiHTFo4YdkzuEEvk8HimyW9Oi1/QhxhrfuRsxb79lmtp7JLMbnn/Aw=="
     }
   ]
 }

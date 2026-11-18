@@ -1,30 +1,30 @@
 {
-  "version": "0.5.4",
-  "notes": "### Changed\n\n- **Full-screen unlock delay** is configurable in Settings (when Reminder type is Full-screen prompt): None / 0.5s (default) / 1s / 1.5s / 2s / 3s. Also `fullscreen_unlock` in `config.toml`.",
-  "date": "2026-11-18T07:50:55Z",
-  "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.5.4-darwin-amd64.tar.gz",
-  "size": 10136205,
-  "signature": "w7lLOWLA60Nbdwh/FuKS8MPnAdvUrDyrvNUkzrzC3V5l25JB/jU+pxGHOcXw/CvIP6HsDLHJrKLGRmjbY6MEAg==",
+  "version": "0.5.5",
+  "notes": "### Fixed\n\n- **Repeat break reminders** no longer drift later by a few seconds each time (interval is anchored to the scheduled due time).\n\n### Changed\n\n- **Full-screen unlock delay** options: None / 0.2s (default) / 0.5s / 1s / 1.5s / 2s (removed 3s).\n- Automatic update check after launch waits **2 seconds** (was 10).",
+  "date": "2026-11-18T09:01:57Z",
+  "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.5.5-darwin-amd64.tar.gz",
+  "size": 10136517,
+  "signature": "eu7SEoYvKXNJQzsQwLtceivSsGFlom4DrEsaPlYnLBGzhrzRQ3fw6bnHjGo6PUcFBpjmUrmS0JyrxIJNhNEHAw==",
   "deltas": [
     {
-      "from": "0.5.3",
-      "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.5.3-to-0.5.4-darwin-amd64.delta",
-      "size": 604152,
-      "signature": "h5gsCxAy1/6/ogbrm3HOmuWRlLdtDT0oyiMWKk7XSWhm/Ucp8ozkr/zw/d+KzPOj7dI1P6MIR+yB0EUlPc/JDg=="
+      "from": "0.5.4",
+      "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.5.4-to-0.5.5-darwin-amd64.delta",
+      "size": 342851,
+      "signature": "R5nF0q1LawIJ1qct4UMSbDWX5zd3kNrBDXWvAw9etXccVW953EZlATZJDIULkqR5evWEzX5f1wknHGI8u/GZCg=="
     }
   ],
   "previous": [
+    {
+      "version": "0.5.4",
+      "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.5.4-darwin-amd64.tar.gz",
+      "size": 10136205,
+      "signature": "w7lLOWLA60Nbdwh/FuKS8MPnAdvUrDyrvNUkzrzC3V5l25JB/jU+pxGHOcXw/CvIP6HsDLHJrKLGRmjbY6MEAg=="
+    },
     {
       "version": "0.5.3",
       "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.5.3-darwin-amd64.tar.gz",
       "size": 10133353,
       "signature": "TTjRVQgHe0TYQUGpgQVeWzXit70CsFUowvEiIxv9uWSLEBDqCmr0sU88B72yA8ysxo1LJyJUFGwR0cR3libiAw=="
-    },
-    {
-      "version": "0.5.2",
-      "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.5.2-darwin-amd64.tar.gz",
-      "size": 10099652,
-      "signature": "MqJ20hgYClLKPEv96Uj5RpHejQQa+fvz4EXuae7/sZAetEWVs4LCJcMsPe/HfnHPmBYt7TC+XzXpUrZ4OpXGDA=="
     }
   ]
 }
