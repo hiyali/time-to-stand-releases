@@ -1,30 +1,30 @@
 {
-  "version": "0.6.1",
-  "notes": "### Changed\n\n- **Edge Pulse**: sits flush on the screen edge (no side gap). Collapsed strip uses a concave screen-edge silhouette; window width tracks the strip so transparent gutters no longer steal clicks. On Windows, the light gray panel outline is removed.\n- **Edge Pulse**: overtime no longer grows the strip taller — red fills downward inside a fixed height as you pass the focus target (visual ceiling around 2.6×). Hover percent shows **∞%** past 999%. In Break, hover shows elapsed time and the resting label.\n- **Edge Pulse**: right-click menu leads with Start Break / Start Focus, then Settings, Snap Left / Right, and Hide.\n- **Menu bar / tray countdown**: durations from 24 hours on use a compact `1d2h3m4s` form (zero units omitted).",
-  "date": "2026-11-20T10:19:33Z",
-  "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.6.1-windows-amd64.tar.gz",
-  "size": 8821801,
-  "signature": "78tfZHJbolKHtMnfoBerIf5b4ciL97F2iOfM2z8Wv3uxphjep+5ATdljZUkgLjGfKuv8ADi4eHbxi2iVN56hAQ==",
+  "version": "0.6.2",
+  "notes": "### Fixed\n\n- **Edge Pulse**: removes a faint dark hairline where the liquid waves meet the solid fill.\n\n### Changed\n\n- **Edge Pulse**: liquid waves sit a little higher and read slightly more opaque while expanded.",
+  "date": "2026-11-20T10:49:22Z",
+  "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.6.2-windows-amd64.tar.gz",
+  "size": 8822254,
+  "signature": "zaF3+1MOsaZdTeae2m+19ZVLksN18tUix5E8xAGslcB99kPBhCZWhMU/LcJXdANJ5h2mL79s/oDJCf4seeBcCg==",
   "deltas": [
     {
-      "from": "0.6.0",
-      "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.6.0-to-0.6.1-windows-amd64.delta",
-      "size": 512665,
-      "signature": "8/PmTAribfBJs3xg+yH1QSx5TbeWTwLaOWkbUs9ah+qRyu17escRkJjeDTCosYYPtWD7goNUJYR08EvznZBfCw=="
+      "from": "0.6.1",
+      "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.6.1-to-0.6.2-windows-amd64.delta",
+      "size": 154570,
+      "signature": "y9FKlLGGssPUM0AOEy9bdsbVCX2cWneF0u60exV1Bb1wE9MaFOz9zpsyA8sDojgtKQwiD8GAWcXaOA/W88wFDw=="
     }
   ],
   "previous": [
+    {
+      "version": "0.6.1",
+      "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.6.1-windows-amd64.tar.gz",
+      "size": 8821801,
+      "signature": "78tfZHJbolKHtMnfoBerIf5b4ciL97F2iOfM2z8Wv3uxphjep+5ATdljZUkgLjGfKuv8ADi4eHbxi2iVN56hAQ=="
+    },
     {
       "version": "0.6.0",
       "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.6.0-windows-amd64.tar.gz",
       "size": 8813540,
       "signature": "EKak8juwNiikHh/9FiH57jGjT50bAZEeWzSyUBGfb/p6nGz3M8SQz5sS5J227HvXAMLpOMaxF6l3lXdUbIgtBw=="
-    },
-    {
-      "version": "0.5.5",
-      "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.5.5-windows-amd64.tar.gz",
-      "size": 8778858,
-      "signature": "v4T70BGbEDbeS/S6SifUuyOTwwY0ENxIvcv4cbek50DNN2sLZeuZ5/RX/0mEHVjHGe75FuqihIGr9h9hFCjFCg=="
     }
   ]
 }
