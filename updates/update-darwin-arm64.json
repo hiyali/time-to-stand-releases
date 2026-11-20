@@ -1,30 +1,30 @@
 {
-  "version": "0.6.0",
-  "notes": "### Added\n\n- **Edge Pulse** (侧边脉动): optional progress strip on the left or right screen edge. Hover expands it with percent and elapsed/target; drag moves quietly and spring-snaps back to the edge. Fill rises from the bottom (green→yellow in the upper band) with layered liquid waves while expanded; soft breath before the target, stronger flash at/after it, then a red tip after the first repeat. Click for a ripple; right-click to snap side, open Settings, or hide. Off by default in Settings.\n- **macOS**: optional **Menu bar countdown** — hide the segment time next to the tray icon while keeping the icon. Toggle in Settings (on by default).\n\n### Changed\n\n- `config.toml`: hotkey, hot corner, and Edge Pulse settings move into `[hotkey]`, `[hot_corner]`, and `[edge_pulse]` groups (older flat keys still load for now).",
-  "date": "2026-11-20T05:22:21Z",
-  "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.6.0-darwin-arm64.tar.gz",
-  "size": 9369755,
-  "signature": "566NtJKfHknPCUMQjV8ueZzI1E2w7t7Extr9LF1kumCKY8rb0Rm/lFgf+ongfL22d2z7H6xP/1hAx2r0UQtFCQ==",
+  "version": "0.6.1",
+  "notes": "### Changed\n\n- **Edge Pulse**: sits flush on the screen edge (no side gap). Collapsed strip uses a concave screen-edge silhouette; window width tracks the strip so transparent gutters no longer steal clicks. On Windows, the light gray panel outline is removed.\n- **Edge Pulse**: overtime no longer grows the strip taller — red fills downward inside a fixed height as you pass the focus target (visual ceiling around 2.6×). Hover percent shows **∞%** past 999%. In Break, hover shows elapsed time and the resting label.\n- **Edge Pulse**: right-click menu leads with Start Break / Start Focus, then Settings, Snap Left / Right, and Hide.\n- **Menu bar / tray countdown**: durations from 24 hours on use a compact `1d2h3m4s` form (zero units omitted).",
+  "date": "2026-11-20T10:18:49Z",
+  "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.6.1-darwin-arm64.tar.gz",
+  "size": 9378205,
+  "signature": "Cufhs93DQNSg7p3DvnQykMSW8r0sbeDu7H17FJ5A/rkVrjKBIR/uxc0QpTYq0JT05Soe+RFxQrlehS/hqvoTDg==",
   "deltas": [
     {
-      "from": "0.5.5",
-      "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.5.5-to-0.6.0-darwin-arm64.delta",
-      "size": 749813,
-      "signature": "7Gir59ynL8CRNCe8tmfgB4VfFC5nCiwgd8wGuhx1sDPTRHss4ki2bT3dAT/IFFbuqbeLrP5F940J7PvWUCpQDA=="
+      "from": "0.6.0",
+      "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.6.0-to-0.6.1-darwin-arm64.delta",
+      "size": 613091,
+      "signature": "xySG1Phg6MHGF5VpPE8VoxSwE7j2ZDdy0r463DTSX9Y4UmMjiKfhUT1vGT2imUzZQddMa/I/5xqyvKzirQ5BBQ=="
     }
   ],
   "previous": [
+    {
+      "version": "0.6.0",
+      "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.6.0-darwin-arm64.tar.gz",
+      "size": 9369755,
+      "signature": "566NtJKfHknPCUMQjV8ueZzI1E2w7t7Extr9LF1kumCKY8rb0Rm/lFgf+ongfL22d2z7H6xP/1hAx2r0UQtFCQ=="
+    },
     {
       "version": "0.5.5",
       "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.5.5-darwin-arm64.tar.gz",
       "size": 9340229,
       "signature": "0hmFR3T8aoBswAWz0FjDnp3BepSR9Pt0mnth8MnflAfQpIO7V5vy2ntuydPfVUj/U3faJ1dMQf7FL7VTKoUECQ=="
-    },
-    {
-      "version": "0.5.4",
-      "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.5.4-darwin-arm64.tar.gz",
-      "size": 9341214,
-      "signature": "CktK7qiV0/DPwUxeVnZLo9psgfSMVW8EYK0v2/DIdC0L+bp5o0FJ3+bnNNA2bF29I8KhLQr8kNIAuHURu4UIDA=="
     }
   ]
 }
