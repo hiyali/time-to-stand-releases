@@ -1,30 +1,30 @@
 {
-  "version": "0.5.5",
-  "notes": "### Fixed\n\n- **Repeat break reminders** no longer drift later by a few seconds each time (interval is anchored to the scheduled due time).\n\n### Changed\n\n- **Full-screen unlock delay** options: None / 0.2s (default) / 0.5s / 1s / 1.5s / 2s (removed 3s).\n- Automatic update check after launch waits **2 seconds** (was 10).",
-  "date": "2026-11-18T09:01:57Z",
-  "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.5.5-darwin-amd64.tar.gz",
-  "size": 10136517,
-  "signature": "eu7SEoYvKXNJQzsQwLtceivSsGFlom4DrEsaPlYnLBGzhrzRQ3fw6bnHjGo6PUcFBpjmUrmS0JyrxIJNhNEHAw==",
+  "version": "0.6.0",
+  "notes": "### Added\n\n- **Edge Pulse** (侧边脉动): optional progress strip on the left or right screen edge. Hover expands it with percent and elapsed/target; drag moves quietly and spring-snaps back to the edge. Fill rises from the bottom (green→yellow in the upper band) with layered liquid waves while expanded; soft breath before the target, stronger flash at/after it, then a red tip after the first repeat. Click for a ripple; right-click to snap side, open Settings, or hide. Off by default in Settings.\n- **macOS**: optional **Menu bar countdown** — hide the segment time next to the tray icon while keeping the icon. Toggle in Settings (on by default).\n\n### Changed\n\n- `config.toml`: hotkey, hot corner, and Edge Pulse settings move into `[hotkey]`, `[hot_corner]`, and `[edge_pulse]` groups (older flat keys still load for now).",
+  "date": "2026-11-20T05:22:02Z",
+  "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.6.0-darwin-amd64.tar.gz",
+  "size": 10166358,
+  "signature": "g6ZPVwbyguC+KSXBp8hJkwK8hY2FTt8A2DTGWpuHZg4C2Vn2EnAXKdBgYsZgE4Yp4JCEsUb+0Dg9CCvLGTprBQ==",
   "deltas": [
     {
-      "from": "0.5.4",
-      "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.5.4-to-0.5.5-darwin-amd64.delta",
-      "size": 342851,
-      "signature": "R5nF0q1LawIJ1qct4UMSbDWX5zd3kNrBDXWvAw9etXccVW953EZlATZJDIULkqR5evWEzX5f1wknHGI8u/GZCg=="
+      "from": "0.5.5",
+      "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.5.5-to-0.6.0-darwin-amd64.delta",
+      "size": 866466,
+      "signature": "C9rsKu3IRY+0/B+ViXYNLVXk7dWV5JkTVviHbfMQIo695hBcHFY1vXExzKLYvgG3642VtNblhAgRDgJyfTsOCQ=="
     }
   ],
   "previous": [
+    {
+      "version": "0.5.5",
+      "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.5.5-darwin-amd64.tar.gz",
+      "size": 10136517,
+      "signature": "eu7SEoYvKXNJQzsQwLtceivSsGFlom4DrEsaPlYnLBGzhrzRQ3fw6bnHjGo6PUcFBpjmUrmS0JyrxIJNhNEHAw=="
+    },
     {
       "version": "0.5.4",
       "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.5.4-darwin-amd64.tar.gz",
       "size": 10136205,
       "signature": "w7lLOWLA60Nbdwh/FuKS8MPnAdvUrDyrvNUkzrzC3V5l25JB/jU+pxGHOcXw/CvIP6HsDLHJrKLGRmjbY6MEAg=="
-    },
-    {
-      "version": "0.5.3",
-      "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.5.3-darwin-amd64.tar.gz",
-      "size": 10133353,
-      "signature": "TTjRVQgHe0TYQUGpgQVeWzXit70CsFUowvEiIxv9uWSLEBDqCmr0sU88B72yA8ysxo1LJyJUFGwR0cR3libiAw=="
     }
   ]
 }

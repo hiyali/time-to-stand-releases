@@ -6,11 +6,14 @@
     <title>Time to Stand — Download</title>
     <meta
       name="description"
-      content="Download Time to Stand for macOS and Windows. Focus and breaks, in rhythm."
+      content="Time to Stand — Focus and breaks, in rhythm. A menu-bar work timer that nudges you to stand when focus time is up. Auto-switches on lock/sleep, unlocks back to focus. Hotkeys, hot corners, open at login, and today’s session totals."
     />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="Time to Stand — Download" />
-    <meta property="og:description" content="Focus and breaks, in rhythm." />
+    <meta
+      property="og:description"
+      content="A menu-bar work timer that nudges you to stand when focus time is up. Auto-switches on lock/sleep, unlocks back to focus. Hotkeys, hot corners, open at login, and today’s session totals—light, always there, never in the way."
+    />
     <meta property="og:image" content="https://hiyali.github.io/time-to-stand-releases/updates/icon.png" />
     <link rel="icon" href="updates/icon.png" type="image/png" />
     <style>
@@ -69,6 +72,14 @@
         line-height: 1.45;
       }
 
+      .desc {
+        margin: 0 auto 1.25rem;
+        max-width: 34rem;
+        color: var(--muted);
+        font-size: 0.9375rem;
+        line-height: 1.55;
+      }
+
       .version {
         margin: 0 0 2rem;
         font-size: 0.875rem;
@@ -81,6 +92,7 @@
         gap: 1rem;
         align-items: stretch;
         text-align: left;
+        margin: 0 0 2rem;
       }
 
       @media (max-width: 560px) {
@@ -249,7 +261,7 @@
       <img class="logo" src="updates/icon.png" width="88" height="88" alt="Time to Stand" />
       <h1>Time to Stand</h1>
       <p class="tagline">Focus and breaks, in rhythm.</p>
-      <p class="version">Version 0.5.5</p>
+      <p class="version">Version 0.6.0</p>
 
       <div class="platform-grid" aria-label="Download installers">
         <section class="platform" id="platform-mac" aria-labelledby="mac-download-label">
@@ -293,6 +305,13 @@
           </div>
         </section>
       </div>
+
+      <p class="desc">
+        A menu-bar work timer that nudges you to stand when focus time is up.
+        Auto-switches on lock/sleep, unlocks back to focus. Hotkeys, hot corners,
+        open at login, and today’s session totals—light, always there, never in the
+        way.
+      </p>
 
       <p class="install-hints-elsewhere" id="install-hints-both" hidden></p>
 

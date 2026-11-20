@@ -1,30 +1,30 @@
 {
-  "version": "0.5.5",
-  "notes": "### Fixed\n\n- **Repeat break reminders** no longer drift later by a few seconds each time (interval is anchored to the scheduled due time).\n\n### Changed\n\n- **Full-screen unlock delay** options: None / 0.2s (default) / 0.5s / 1s / 1.5s / 2s (removed 3s).\n- Automatic update check after launch waits **2 seconds** (was 10).",
-  "date": "2026-11-18T09:03:08Z",
-  "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.5.5-windows-amd64.tar.gz",
-  "size": 8778858,
-  "signature": "v4T70BGbEDbeS/S6SifUuyOTwwY0ENxIvcv4cbek50DNN2sLZeuZ5/RX/0mEHVjHGe75FuqihIGr9h9hFCjFCg==",
+  "version": "0.6.0",
+  "notes": "### Added\n\n- **Edge Pulse** (侧边脉动): optional progress strip on the left or right screen edge. Hover expands it with percent and elapsed/target; drag moves quietly and spring-snaps back to the edge. Fill rises from the bottom (green→yellow in the upper band) with layered liquid waves while expanded; soft breath before the target, stronger flash at/after it, then a red tip after the first repeat. Click for a ripple; right-click to snap side, open Settings, or hide. Off by default in Settings.\n- **macOS**: optional **Menu bar countdown** — hide the segment time next to the tray icon while keeping the icon. Toggle in Settings (on by default).\n\n### Changed\n\n- `config.toml`: hotkey, hot corner, and Edge Pulse settings move into `[hotkey]`, `[hot_corner]`, and `[edge_pulse]` groups (older flat keys still load for now).",
+  "date": "2026-11-20T05:23:20Z",
+  "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.6.0-windows-amd64.tar.gz",
+  "size": 8813540,
+  "signature": "EKak8juwNiikHh/9FiH57jGjT50bAZEeWzSyUBGfb/p6nGz3M8SQz5sS5J227HvXAMLpOMaxF6l3lXdUbIgtBw==",
   "deltas": [
     {
-      "from": "0.5.4",
-      "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.5.4-to-0.5.5-windows-amd64.delta",
-      "size": 194005,
-      "signature": "gGkjBmJPRXOFJUohovhZZ/AVbvPL1yNme6cLs20/JcoJXCNC2+Ys5+KLHwXo4lylQoBdchRdTEzL7kyd1VzrAA=="
+      "from": "0.5.5",
+      "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.5.5-to-0.6.0-windows-amd64.delta",
+      "size": 671785,
+      "signature": "8rKuBvSXlyDvy3R6BtJaAeflzEbr3FvjXKwJcDr3xrkamfF08ccG7NEGO9k+tNJpvWGNMYatRyKbSFHu1kr0AQ=="
     }
   ],
   "previous": [
+    {
+      "version": "0.5.5",
+      "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.5.5-windows-amd64.tar.gz",
+      "size": 8778858,
+      "signature": "v4T70BGbEDbeS/S6SifUuyOTwwY0ENxIvcv4cbek50DNN2sLZeuZ5/RX/0mEHVjHGe75FuqihIGr9h9hFCjFCg=="
+    },
     {
       "version": "0.5.4",
       "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.5.4-windows-amd64.tar.gz",
       "size": 8778767,
       "signature": "ZlY2GQuASoZL9ymCt/PrtX+zFScPSMaKgfwmn8kGbBLUUdzgh0ZgNhn2gdMu//CNo2+XMxlnWGT4sBjqWRlBAQ=="
-    },
-    {
-      "version": "0.5.3",
-      "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.5.3-windows-amd64.tar.gz",
-      "size": 8775429,
-      "signature": "WDJDMv1jGjbNQ1BxCARFb5WfyF3aAEY5fmxRW7h/afwtwf7UMbZ5ejoDC6VdfSjeu/nF314fUia+J0O/3zDaAA=="
     }
   ]
 }
