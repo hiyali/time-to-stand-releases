@@ -1,30 +1,30 @@
 {
-  "version": "0.6.2",
-  "notes": "### Fixed\n\n- **Edge Pulse**: removes a faint dark hairline where the liquid waves meet the solid fill.\n\n### Changed\n\n- **Edge Pulse**: liquid waves sit a little higher and read slightly more opaque while expanded.",
-  "date": "2026-11-20T10:48:17Z",
-  "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.6.2-darwin-arm64.tar.gz",
-  "size": 9378855,
-  "signature": "x65Kxr9dBGyaIdY/uAU2UqEwYq2YWRSz+Kna3XILbSaJestO3i1ZI6VHNYoQrKWyt12Xa9aPNzuGaCtWepttCA==",
+  "version": "0.6.3",
+  "notes": "### Fixed\n\n- **Edge Pulse**: on Windows, collapsing against the right edge no longer jitters when the cursor sits on the moving inner edge.\n- **Edge Pulse**: past the focus target, red enters from above the strip instead of flashing in as a sudden tip.",
+  "date": "2026-11-23T02:00:41Z",
+  "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.6.3-darwin-arm64.tar.gz",
+  "size": 9378944,
+  "signature": "ipcB9TPnktRGxUnDIr4zPKVi2vqsVF0h0iBwfWk/zoZaIBvefb2JupnXTnklztCetKq5wkJRnuPaqdI2Uo2SCQ==",
   "deltas": [
     {
-      "from": "0.6.1",
-      "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.6.1-to-0.6.2-darwin-arm64.delta",
-      "size": 143477,
-      "signature": "J+KlsznJrCQh/AKA/nFLL0DvNw5EUAVJtLPwfFBdSF1M6iRknEzPSdHgVr6DVeRfHbpb86acKNI+gyCGy3obBg=="
+      "from": "0.6.2",
+      "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.6.2-to-0.6.3-darwin-arm64.delta",
+      "size": 257980,
+      "signature": "cxtPpHUagevXtHfQg2MrCXpWUGfHu0W/Mzwdf0aFQS8+muzQDvuQ8tcDEZfEytemcnKnd7nQGJ7bfJ6GQbbQCA=="
     }
   ],
   "previous": [
+    {
+      "version": "0.6.2",
+      "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.6.2-darwin-arm64.tar.gz",
+      "size": 9378855,
+      "signature": "x65Kxr9dBGyaIdY/uAU2UqEwYq2YWRSz+Kna3XILbSaJestO3i1ZI6VHNYoQrKWyt12Xa9aPNzuGaCtWepttCA=="
+    },
     {
       "version": "0.6.1",
       "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.6.1-darwin-arm64.tar.gz",
       "size": 9378205,
       "signature": "Cufhs93DQNSg7p3DvnQykMSW8r0sbeDu7H17FJ5A/rkVrjKBIR/uxc0QpTYq0JT05Soe+RFxQrlehS/hqvoTDg=="
-    },
-    {
-      "version": "0.6.0",
-      "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.6.0-darwin-arm64.tar.gz",
-      "size": 9369755,
-      "signature": "566NtJKfHknPCUMQjV8ueZzI1E2w7t7Extr9LF1kumCKY8rb0Rm/lFgf+ongfL22d2z7H6xP/1hAx2r0UQtFCQ=="
     }
   ]
 }
