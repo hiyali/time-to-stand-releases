@@ -1,30 +1,30 @@
 {
-  "version": "0.6.4",
-  "notes": "### Fixed\n\n- **Edge Pulse** (Windows): docking to the right edge no longer jumps once a second after the strip collapses — size and position update atomically, and unchanged geometry is left alone.\n\n### Changed\n\n- **Windows tray icon**: focus shows a centered **T**, break shows **S** (outer progress ring unchanged). Drawn at the shell small-icon size with smoother edges so it stays clearer on the taskbar.",
-  "date": "2026-11-24T03:29:51Z",
-  "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.6.4-darwin-amd64.tar.gz",
-  "size": 10181126,
-  "signature": "QAqCO7uPbV/2F2pZ4QBUV2UmfDzyYCysZ5oKz2L71UcYHqF0YQjX95kjafblVXJmY+VXAm47JxEYq1dow8sbAA==",
+  "version": "0.6.5",
+  "notes": "### Fixed\n\n- **Windows (and other platforms)**: after a system shutdown or restart, the current Focus/Break segment no longer keeps counting through the downtime. A new Focus segment starts from 0:00; time before the reboot is kept when the app had recently saved progress.",
+  "date": "2026-11-24T04:19:34Z",
+  "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.6.5-darwin-amd64.tar.gz",
+  "size": 10187114,
+  "signature": "pk91ZfXmpoXL0mzMf6X1BTiM4VKpbHJZjq9tzajb84O/1PKNn7g5m0boHvBwcJVWqWZVeUpoUTpLKQDcRceNDA==",
   "deltas": [
     {
-      "from": "0.6.3",
-      "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.6.3-to-0.6.4-darwin-amd64.delta",
-      "size": 340096,
-      "signature": "J8ZVwNJgdveyisKCxVySF51iyTA01M2w3Njca2vFBo1wdx0MmXILHL44AI2GojmhoUaLvwmt+O63LWzE8UyDBQ=="
+      "from": "0.6.4",
+      "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.6.4-to-0.6.5-darwin-amd64.delta",
+      "size": 774226,
+      "signature": "YRu/hupYpqzDK8D9tXjDm/YfsU1u4qFXWnuLLCkt72Z0Ee/ejLvkFd963f9rQAA7z9Mjr7jveS2NVXysYeb7Cg=="
     }
   ],
   "previous": [
+    {
+      "version": "0.6.4",
+      "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.6.4-darwin-amd64.tar.gz",
+      "size": 10181126,
+      "signature": "QAqCO7uPbV/2F2pZ4QBUV2UmfDzyYCysZ5oKz2L71UcYHqF0YQjX95kjafblVXJmY+VXAm47JxEYq1dow8sbAA=="
+    },
     {
       "version": "0.6.3",
       "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.6.3-darwin-amd64.tar.gz",
       "size": 10180459,
       "signature": "bDmCIoDOaaC6WjLujfB2JW9r3tQ4WKzBP5+xFIzypSq7I12/a7G080fpsc5Rh1KwGrnZ1TpyBWLjCwiHHpneCg=="
-    },
-    {
-      "version": "0.6.2",
-      "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.6.2-darwin-amd64.tar.gz",
-      "size": 10180407,
-      "signature": "zOsLl9kL02Sx3SxxY7lgQUNzXlCO+i4cJbsapq4Hw4rYQiF584hOgKlEMicoZ0lc+ljfzpLpqzM24oTgrlJ/Aw=="
     }
   ]
 }

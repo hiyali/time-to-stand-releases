@@ -1,30 +1,30 @@
 {
-  "version": "0.6.4",
-  "notes": "### Fixed\n\n- **Edge Pulse** (Windows): docking to the right edge no longer jumps once a second after the strip collapses — size and position update atomically, and unchanged geometry is left alone.\n\n### Changed\n\n- **Windows tray icon**: focus shows a centered **T**, break shows **S** (outer progress ring unchanged). Drawn at the shell small-icon size with smoother edges so it stays clearer on the taskbar.",
-  "date": "2026-11-24T03:32:18Z",
-  "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.6.4-windows-amd64.tar.gz",
-  "size": 8824217,
-  "signature": "sVUUBi07lXYt6FtAh9LsXsnqCJq9bGmpFe/pTH6UxmJZh9PtMgaRuGy1LD1kcZKiggR+X2gF3jx2uOOF97A8Aw==",
+  "version": "0.6.5",
+  "notes": "### Fixed\n\n- **Windows (and other platforms)**: after a system shutdown or restart, the current Focus/Break segment no longer keeps counting through the downtime. A new Focus segment starts from 0:00; time before the reboot is kept when the app had recently saved progress.",
+  "date": "2026-11-24T04:20:44Z",
+  "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.6.5-windows-amd64.tar.gz",
+  "size": 8826813,
+  "signature": "cuQK+p84Ot8LUtG2rEAUxUyQWrEvdEfymrppR9QoIq91yb6gGQZH5X66zSjjroz/d1OQsVSsltJP0Mlvup/YBA==",
   "deltas": [
     {
-      "from": "0.6.3",
-      "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.6.3-to-0.6.4-windows-amd64.delta",
-      "size": 292062,
-      "signature": "n9NZI2lkGKBAteBCFrv1YE6pL5Ygz7JlKbZWWJGN7Lt9RO1Eon5S+NHMvKbr3Ro6RrBsxT0jTwRUa0+E0Q7aCg=="
+      "from": "0.6.4",
+      "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.6.4-to-0.6.5-windows-amd64.delta",
+      "size": 544389,
+      "signature": "MRhUpqTs8SeR82mHxZuGY4pKNJ1XCQYdLGGJnH0CqYgOD3dnZXhAfLZWxnac1iSZyNsI4C8ilIY5kBpv6K8NBw=="
     }
   ],
   "previous": [
+    {
+      "version": "0.6.4",
+      "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.6.4-windows-amd64.tar.gz",
+      "size": 8824217,
+      "signature": "sVUUBi07lXYt6FtAh9LsXsnqCJq9bGmpFe/pTH6UxmJZh9PtMgaRuGy1LD1kcZKiggR+X2gF3jx2uOOF97A8Aw=="
+    },
     {
       "version": "0.6.3",
       "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.6.3-windows-amd64.tar.gz",
       "size": 8822974,
       "signature": "ZN/fG3jhoNJjAsvchCnNqS6V/jWF8iXjn47oTdjVL5ZazoXbAHFi/he6TRxjMmCn4lzQxX2KgVVfnt710d+aAg=="
-    },
-    {
-      "version": "0.6.2",
-      "url": "https://hiyali.github.io/time-to-stand-releases/updates/time-to-stand-0.6.2-windows-amd64.tar.gz",
-      "size": 8822254,
-      "signature": "zaF3+1MOsaZdTeae2m+19ZVLksN18tUix5E8xAGslcB99kPBhCZWhMU/LcJXdANJ5h2mL79s/oDJCf4seeBcCg=="
     }
   ]
 }
